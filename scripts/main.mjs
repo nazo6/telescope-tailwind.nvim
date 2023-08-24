@@ -18,7 +18,7 @@ async function main() {
   try {
     await fs.stat(dataDir);
   } catch {
-    console.log("Downloaging Tailwind CSS Docs");
+    console.log("Downloading Tailwind CSS Docs");
     execSync(
       "git clone https://github.com/tailwindlabs/tailwindcss.com --depth 1 data",
       { cwd: dirname },
@@ -75,7 +75,7 @@ async function main() {
       dirname,
       "../lua/telescope/_extensions/tailwind/data/categorized.lua",
     ),
-    format(categorizedUtilities),
+    typingLuaFile(format(categorizedUtilities), "CategoryEntry[]"),
   );
 
   await fs.writeFile(
@@ -83,6 +83,12 @@ async function main() {
       dirname,
       "../lua/telescope/_extensions/tailwind/data/flat.lua",
     ),
-    format(flatUtilities),
+    typingLuaFile(format(flatUtilities), "FlatDataEntry[]"),
   );
+}
+
+function typingLuaFile(source, type) {
+  let s = source.replace("return", "local M =");
+  s = `---@type ${type}\n${s}\n\nreturn M`;
+  return s;
 }

@@ -1,196 +1,5 @@
-return {
-  {
-    class = '.content-normal',
-    value = {
-      ['align-content'] = 'normal',
-    },
-    title = 'Align Content',
-    description = 'Utilities for controlling how rows are positioned in multi-row flex and grid containers.',
-  },
-  {
-    class = '.content-center',
-    value = {
-      ['align-content'] = 'center',
-    },
-    title = 'Align Content',
-    description = 'Utilities for controlling how rows are positioned in multi-row flex and grid containers.',
-  },
-  {
-    class = '.content-start',
-    value = {
-      ['align-content'] = 'flex-start',
-    },
-    title = 'Align Content',
-    description = 'Utilities for controlling how rows are positioned in multi-row flex and grid containers.',
-  },
-  {
-    class = '.content-end',
-    value = {
-      ['align-content'] = 'flex-end',
-    },
-    title = 'Align Content',
-    description = 'Utilities for controlling how rows are positioned in multi-row flex and grid containers.',
-  },
-  {
-    class = '.content-between',
-    value = {
-      ['align-content'] = 'space-between',
-    },
-    title = 'Align Content',
-    description = 'Utilities for controlling how rows are positioned in multi-row flex and grid containers.',
-  },
-  {
-    class = '.content-around',
-    value = {
-      ['align-content'] = 'space-around',
-    },
-    title = 'Align Content',
-    description = 'Utilities for controlling how rows are positioned in multi-row flex and grid containers.',
-  },
-  {
-    class = '.content-evenly',
-    value = {
-      ['align-content'] = 'space-evenly',
-    },
-    title = 'Align Content',
-    description = 'Utilities for controlling how rows are positioned in multi-row flex and grid containers.',
-  },
-  {
-    class = '.content-baseline',
-    value = {
-      ['align-content'] = 'baseline',
-    },
-    title = 'Align Content',
-    description = 'Utilities for controlling how rows are positioned in multi-row flex and grid containers.',
-  },
-  {
-    class = '.content-stretch',
-    value = {
-      ['align-content'] = 'stretch',
-    },
-    title = 'Align Content',
-    description = 'Utilities for controlling how rows are positioned in multi-row flex and grid containers.',
-  },
-  {
-    class = '.items-start',
-    value = {
-      ['align-items'] = 'flex-start',
-    },
-    title = 'Align Items',
-    description = 'Utilities for controlling how flex and grid items are positioned along a container\'s cross axis.',
-  },
-  {
-    class = '.items-end',
-    value = {
-      ['align-items'] = 'flex-end',
-    },
-    title = 'Align Items',
-    description = 'Utilities for controlling how flex and grid items are positioned along a container\'s cross axis.',
-  },
-  {
-    class = '.items-center',
-    value = {
-      ['align-items'] = 'center',
-    },
-    title = 'Align Items',
-    description = 'Utilities for controlling how flex and grid items are positioned along a container\'s cross axis.',
-  },
-  {
-    class = '.items-baseline',
-    value = {
-      ['align-items'] = 'baseline',
-    },
-    title = 'Align Items',
-    description = 'Utilities for controlling how flex and grid items are positioned along a container\'s cross axis.',
-  },
-  {
-    class = '.items-stretch',
-    value = {
-      ['align-items'] = 'stretch',
-    },
-    title = 'Align Items',
-    description = 'Utilities for controlling how flex and grid items are positioned along a container\'s cross axis.',
-  },
-  {
-    class = '.self-auto',
-    value = {
-      ['align-self'] = 'auto',
-    },
-    title = 'Align Self',
-    description = 'Utilities for controlling how an individual flex or grid item is positioned along its container\'s cross axis.',
-  },
-  {
-    class = '.self-start',
-    value = {
-      ['align-self'] = 'flex-start',
-    },
-    title = 'Align Self',
-    description = 'Utilities for controlling how an individual flex or grid item is positioned along its container\'s cross axis.',
-  },
-  {
-    class = '.self-end',
-    value = {
-      ['align-self'] = 'flex-end',
-    },
-    title = 'Align Self',
-    description = 'Utilities for controlling how an individual flex or grid item is positioned along its container\'s cross axis.',
-  },
-  {
-    class = '.self-center',
-    value = {
-      ['align-self'] = 'center',
-    },
-    title = 'Align Self',
-    description = 'Utilities for controlling how an individual flex or grid item is positioned along its container\'s cross axis.',
-  },
-  {
-    class = '.self-stretch',
-    value = {
-      ['align-self'] = 'stretch',
-    },
-    title = 'Align Self',
-    description = 'Utilities for controlling how an individual flex or grid item is positioned along its container\'s cross axis.',
-  },
-  {
-    class = '.self-baseline',
-    value = {
-      ['align-self'] = 'baseline',
-    },
-    title = 'Align Self',
-    description = 'Utilities for controlling how an individual flex or grid item is positioned along its container\'s cross axis.',
-  },
-  {
-    class = '.appearance-none',
-    value = {
-      appearance = 'none',
-    },
-    title = 'Appearance',
-    description = 'Utilities for suppressing native form control styling.',
-  },
-  {
-    class = '.aspect-auto',
-    value = {
-      ['aspect-ratio'] = 'auto',
-    },
-    title = 'Aspect Ratio',
-    description = 'Utilities for controlling the aspect ratio of an element.',
-  },
-  {
-    class = '.aspect-square',
-    value = {
-      ['aspect-ratio'] = '1 / 1',
-    },
-    title = 'Aspect Ratio',
-    description = 'Utilities for controlling the aspect ratio of an element.',
-  },
-  {
-    class = '.aspect-video',
-    value = {
-      ['aspect-ratio'] = '16 / 9',
-    },
-    title = 'Aspect Ratio',
-    description = 'Utilities for controlling the aspect ratio of an element.',
-  },
+---@type FlatDataEntry[]
+local M = {
   {
     class = '.accent-inherit',
     value = {
@@ -2176,6 +1985,279 @@ return {
     description = 'Utilities for controlling the accented color of a form control.',
   },
   {
+    class = '.content-normal',
+    value = {
+      ['align-content'] = 'normal',
+    },
+    title = 'Align Content',
+    description = 'Utilities for controlling how rows are positioned in multi-row flex and grid containers.',
+  },
+  {
+    class = '.content-center',
+    value = {
+      ['align-content'] = 'center',
+    },
+    title = 'Align Content',
+    description = 'Utilities for controlling how rows are positioned in multi-row flex and grid containers.',
+  },
+  {
+    class = '.content-start',
+    value = {
+      ['align-content'] = 'flex-start',
+    },
+    title = 'Align Content',
+    description = 'Utilities for controlling how rows are positioned in multi-row flex and grid containers.',
+  },
+  {
+    class = '.content-end',
+    value = {
+      ['align-content'] = 'flex-end',
+    },
+    title = 'Align Content',
+    description = 'Utilities for controlling how rows are positioned in multi-row flex and grid containers.',
+  },
+  {
+    class = '.content-between',
+    value = {
+      ['align-content'] = 'space-between',
+    },
+    title = 'Align Content',
+    description = 'Utilities for controlling how rows are positioned in multi-row flex and grid containers.',
+  },
+  {
+    class = '.content-around',
+    value = {
+      ['align-content'] = 'space-around',
+    },
+    title = 'Align Content',
+    description = 'Utilities for controlling how rows are positioned in multi-row flex and grid containers.',
+  },
+  {
+    class = '.content-evenly',
+    value = {
+      ['align-content'] = 'space-evenly',
+    },
+    title = 'Align Content',
+    description = 'Utilities for controlling how rows are positioned in multi-row flex and grid containers.',
+  },
+  {
+    class = '.content-baseline',
+    value = {
+      ['align-content'] = 'baseline',
+    },
+    title = 'Align Content',
+    description = 'Utilities for controlling how rows are positioned in multi-row flex and grid containers.',
+  },
+  {
+    class = '.content-stretch',
+    value = {
+      ['align-content'] = 'stretch',
+    },
+    title = 'Align Content',
+    description = 'Utilities for controlling how rows are positioned in multi-row flex and grid containers.',
+  },
+  {
+    class = '.items-start',
+    value = {
+      ['align-items'] = 'flex-start',
+    },
+    title = 'Align Items',
+    description = 'Utilities for controlling how flex and grid items are positioned along a container\'s cross axis.',
+  },
+  {
+    class = '.items-end',
+    value = {
+      ['align-items'] = 'flex-end',
+    },
+    title = 'Align Items',
+    description = 'Utilities for controlling how flex and grid items are positioned along a container\'s cross axis.',
+  },
+  {
+    class = '.items-center',
+    value = {
+      ['align-items'] = 'center',
+    },
+    title = 'Align Items',
+    description = 'Utilities for controlling how flex and grid items are positioned along a container\'s cross axis.',
+  },
+  {
+    class = '.items-baseline',
+    value = {
+      ['align-items'] = 'baseline',
+    },
+    title = 'Align Items',
+    description = 'Utilities for controlling how flex and grid items are positioned along a container\'s cross axis.',
+  },
+  {
+    class = '.items-stretch',
+    value = {
+      ['align-items'] = 'stretch',
+    },
+    title = 'Align Items',
+    description = 'Utilities for controlling how flex and grid items are positioned along a container\'s cross axis.',
+  },
+  {
+    class = '.self-auto',
+    value = {
+      ['align-self'] = 'auto',
+    },
+    title = 'Align Self',
+    description = 'Utilities for controlling how an individual flex or grid item is positioned along its container\'s cross axis.',
+  },
+  {
+    class = '.self-start',
+    value = {
+      ['align-self'] = 'flex-start',
+    },
+    title = 'Align Self',
+    description = 'Utilities for controlling how an individual flex or grid item is positioned along its container\'s cross axis.',
+  },
+  {
+    class = '.self-end',
+    value = {
+      ['align-self'] = 'flex-end',
+    },
+    title = 'Align Self',
+    description = 'Utilities for controlling how an individual flex or grid item is positioned along its container\'s cross axis.',
+  },
+  {
+    class = '.self-center',
+    value = {
+      ['align-self'] = 'center',
+    },
+    title = 'Align Self',
+    description = 'Utilities for controlling how an individual flex or grid item is positioned along its container\'s cross axis.',
+  },
+  {
+    class = '.self-stretch',
+    value = {
+      ['align-self'] = 'stretch',
+    },
+    title = 'Align Self',
+    description = 'Utilities for controlling how an individual flex or grid item is positioned along its container\'s cross axis.',
+  },
+  {
+    class = '.self-baseline',
+    value = {
+      ['align-self'] = 'baseline',
+    },
+    title = 'Align Self',
+    description = 'Utilities for controlling how an individual flex or grid item is positioned along its container\'s cross axis.',
+  },
+  {
+    class = '.appearance-none',
+    value = {
+      appearance = 'none',
+    },
+    title = 'Appearance',
+    description = 'Utilities for suppressing native form control styling.',
+  },
+  {
+    class = '.aspect-auto',
+    value = {
+      ['aspect-ratio'] = 'auto',
+    },
+    title = 'Aspect Ratio',
+    description = 'Utilities for controlling the aspect ratio of an element.',
+  },
+  {
+    class = '.aspect-square',
+    value = {
+      ['aspect-ratio'] = '1 / 1',
+    },
+    title = 'Aspect Ratio',
+    description = 'Utilities for controlling the aspect ratio of an element.',
+  },
+  {
+    class = '.aspect-video',
+    value = {
+      ['aspect-ratio'] = '16 / 9',
+    },
+    title = 'Aspect Ratio',
+    description = 'Utilities for controlling the aspect ratio of an element.',
+  },
+  {
+    class = '.backdrop-blur-0',
+    value = {
+      ['--tw-backdrop-blur'] = 'blur(0)',
+      ['backdrop-filter'] = 'var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)',
+    },
+    title = 'Backdrop Blur',
+    description = 'Utilities for applying backdrop blur filters to an element.',
+  },
+  {
+    class = '.backdrop-blur-none',
+    value = {
+      ['--tw-backdrop-blur'] = 'blur(0)',
+      ['backdrop-filter'] = 'var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)',
+    },
+    title = 'Backdrop Blur',
+    description = 'Utilities for applying backdrop blur filters to an element.',
+  },
+  {
+    class = '.backdrop-blur-sm',
+    value = {
+      ['--tw-backdrop-blur'] = 'blur(4px)',
+      ['backdrop-filter'] = 'var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)',
+    },
+    title = 'Backdrop Blur',
+    description = 'Utilities for applying backdrop blur filters to an element.',
+  },
+  {
+    class = '.backdrop-blur',
+    value = {
+      ['--tw-backdrop-blur'] = 'blur(8px)',
+      ['backdrop-filter'] = 'var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)',
+    },
+    title = 'Backdrop Blur',
+    description = 'Utilities for applying backdrop blur filters to an element.',
+  },
+  {
+    class = '.backdrop-blur-md',
+    value = {
+      ['--tw-backdrop-blur'] = 'blur(12px)',
+      ['backdrop-filter'] = 'var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)',
+    },
+    title = 'Backdrop Blur',
+    description = 'Utilities for applying backdrop blur filters to an element.',
+  },
+  {
+    class = '.backdrop-blur-lg',
+    value = {
+      ['--tw-backdrop-blur'] = 'blur(16px)',
+      ['backdrop-filter'] = 'var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)',
+    },
+    title = 'Backdrop Blur',
+    description = 'Utilities for applying backdrop blur filters to an element.',
+  },
+  {
+    class = '.backdrop-blur-xl',
+    value = {
+      ['--tw-backdrop-blur'] = 'blur(24px)',
+      ['backdrop-filter'] = 'var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)',
+    },
+    title = 'Backdrop Blur',
+    description = 'Utilities for applying backdrop blur filters to an element.',
+  },
+  {
+    class = '.backdrop-blur-2xl',
+    value = {
+      ['--tw-backdrop-blur'] = 'blur(40px)',
+      ['backdrop-filter'] = 'var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)',
+    },
+    title = 'Backdrop Blur',
+    description = 'Utilities for applying backdrop blur filters to an element.',
+  },
+  {
+    class = '.backdrop-blur-3xl',
+    value = {
+      ['--tw-backdrop-blur'] = 'blur(64px)',
+      ['backdrop-filter'] = 'var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)',
+    },
+    title = 'Backdrop Blur',
+    description = 'Utilities for applying backdrop blur filters to an element.',
+  },
+  {
     class = '.backdrop-brightness-0',
     value = {
       ['--tw-backdrop-brightness'] = 'brightness(0)',
@@ -2273,87 +2355,6 @@ return {
     },
     title = 'Backdrop Brightness',
     description = 'Utilities for applying backdrop brightness filters to an element.',
-  },
-  {
-    class = '.backdrop-blur-0',
-    value = {
-      ['--tw-backdrop-blur'] = 'blur(0)',
-      ['backdrop-filter'] = 'var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)',
-    },
-    title = 'Backdrop Blur',
-    description = 'Utilities for applying backdrop blur filters to an element.',
-  },
-  {
-    class = '.backdrop-blur-none',
-    value = {
-      ['--tw-backdrop-blur'] = 'blur(0)',
-      ['backdrop-filter'] = 'var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)',
-    },
-    title = 'Backdrop Blur',
-    description = 'Utilities for applying backdrop blur filters to an element.',
-  },
-  {
-    class = '.backdrop-blur-sm',
-    value = {
-      ['--tw-backdrop-blur'] = 'blur(4px)',
-      ['backdrop-filter'] = 'var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)',
-    },
-    title = 'Backdrop Blur',
-    description = 'Utilities for applying backdrop blur filters to an element.',
-  },
-  {
-    class = '.backdrop-blur',
-    value = {
-      ['--tw-backdrop-blur'] = 'blur(8px)',
-      ['backdrop-filter'] = 'var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)',
-    },
-    title = 'Backdrop Blur',
-    description = 'Utilities for applying backdrop blur filters to an element.',
-  },
-  {
-    class = '.backdrop-blur-md',
-    value = {
-      ['--tw-backdrop-blur'] = 'blur(12px)',
-      ['backdrop-filter'] = 'var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)',
-    },
-    title = 'Backdrop Blur',
-    description = 'Utilities for applying backdrop blur filters to an element.',
-  },
-  {
-    class = '.backdrop-blur-lg',
-    value = {
-      ['--tw-backdrop-blur'] = 'blur(16px)',
-      ['backdrop-filter'] = 'var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)',
-    },
-    title = 'Backdrop Blur',
-    description = 'Utilities for applying backdrop blur filters to an element.',
-  },
-  {
-    class = '.backdrop-blur-xl',
-    value = {
-      ['--tw-backdrop-blur'] = 'blur(24px)',
-      ['backdrop-filter'] = 'var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)',
-    },
-    title = 'Backdrop Blur',
-    description = 'Utilities for applying backdrop blur filters to an element.',
-  },
-  {
-    class = '.backdrop-blur-2xl',
-    value = {
-      ['--tw-backdrop-blur'] = 'blur(40px)',
-      ['backdrop-filter'] = 'var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)',
-    },
-    title = 'Backdrop Blur',
-    description = 'Utilities for applying backdrop blur filters to an element.',
-  },
-  {
-    class = '.backdrop-blur-3xl',
-    value = {
-      ['--tw-backdrop-blur'] = 'blur(64px)',
-      ['backdrop-filter'] = 'var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)',
-    },
-    title = 'Backdrop Blur',
-    description = 'Utilities for applying backdrop blur filters to an element.',
   },
   {
     class = '.backdrop-contrast-0',
@@ -2644,24 +2645,6 @@ return {
     description = 'Utilities for applying backdrop opacity filters to an element.',
   },
   {
-    class = '.backdrop-sepia-0',
-    value = {
-      ['--tw-backdrop-sepia'] = 'sepia(0)',
-      ['backdrop-filter'] = 'var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)',
-    },
-    title = 'Backdrop Sepia',
-    description = 'Utilities for applying backdrop sepia filters to an element.',
-  },
-  {
-    class = '.backdrop-sepia',
-    value = {
-      ['--tw-backdrop-sepia'] = 'sepia(100%)',
-      ['backdrop-filter'] = 'var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)',
-    },
-    title = 'Backdrop Sepia',
-    description = 'Utilities for applying backdrop sepia filters to an element.',
-  },
-  {
     class = '.backdrop-saturate-0',
     value = {
       ['--tw-backdrop-saturate'] = 'saturate(0)',
@@ -2707,28 +2690,22 @@ return {
     description = 'Utilities for applying backdrop saturation filters to an element.',
   },
   {
-    class = '.bg-fixed',
+    class = '.backdrop-sepia-0',
     value = {
-      ['background-attachment'] = 'fixed',
+      ['--tw-backdrop-sepia'] = 'sepia(0)',
+      ['backdrop-filter'] = 'var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)',
     },
-    title = 'Background Attachment',
-    description = 'Utilities for controlling how a background image behaves when scrolling.',
+    title = 'Backdrop Sepia',
+    description = 'Utilities for applying backdrop sepia filters to an element.',
   },
   {
-    class = '.bg-local',
+    class = '.backdrop-sepia',
     value = {
-      ['background-attachment'] = 'local',
+      ['--tw-backdrop-sepia'] = 'sepia(100%)',
+      ['backdrop-filter'] = 'var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)',
     },
-    title = 'Background Attachment',
-    description = 'Utilities for controlling how a background image behaves when scrolling.',
-  },
-  {
-    class = '.bg-scroll',
-    value = {
-      ['background-attachment'] = 'scroll',
-    },
-    title = 'Background Attachment',
-    description = 'Utilities for controlling how a background image behaves when scrolling.',
+    title = 'Backdrop Sepia',
+    description = 'Utilities for applying backdrop sepia filters to an element.',
   },
   {
     class = '.bg-blend-normal',
@@ -5181,6 +5158,126 @@ return {
     },
     title = 'Background Image',
     description = 'Utilities for controlling an element\'s background image.',
+  },
+  {
+    class = '.bg-fixed',
+    value = {
+      ['background-attachment'] = 'fixed',
+    },
+    title = 'Background Attachment',
+    description = 'Utilities for controlling how a background image behaves when scrolling.',
+  },
+  {
+    class = '.bg-local',
+    value = {
+      ['background-attachment'] = 'local',
+    },
+    title = 'Background Attachment',
+    description = 'Utilities for controlling how a background image behaves when scrolling.',
+  },
+  {
+    class = '.bg-scroll',
+    value = {
+      ['background-attachment'] = 'scroll',
+    },
+    title = 'Background Attachment',
+    description = 'Utilities for controlling how a background image behaves when scrolling.',
+  },
+  {
+    class = '.bg-origin-border',
+    value = {
+      ['background-origin'] = 'border-box',
+    },
+    title = 'Background Origin',
+    description = 'Utilities for controlling how an element\'s background is positioned relative to borders, padding, and content.',
+  },
+  {
+    class = '.bg-origin-padding',
+    value = {
+      ['background-origin'] = 'padding-box',
+    },
+    title = 'Background Origin',
+    description = 'Utilities for controlling how an element\'s background is positioned relative to borders, padding, and content.',
+  },
+  {
+    class = '.bg-origin-content',
+    value = {
+      ['background-origin'] = 'content-box',
+    },
+    title = 'Background Origin',
+    description = 'Utilities for controlling how an element\'s background is positioned relative to borders, padding, and content.',
+  },
+  {
+    class = '.bg-bottom',
+    value = {
+      ['background-position'] = 'bottom',
+    },
+    title = 'Background Position',
+    description = 'Utilities for controlling the position of an element\'s background image.',
+  },
+  {
+    class = '.bg-center',
+    value = {
+      ['background-position'] = 'center',
+    },
+    title = 'Background Position',
+    description = 'Utilities for controlling the position of an element\'s background image.',
+  },
+  {
+    class = '.bg-left',
+    value = {
+      ['background-position'] = 'left',
+    },
+    title = 'Background Position',
+    description = 'Utilities for controlling the position of an element\'s background image.',
+  },
+  {
+    class = '.bg-left-bottom',
+    value = {
+      ['background-position'] = 'left bottom',
+    },
+    title = 'Background Position',
+    description = 'Utilities for controlling the position of an element\'s background image.',
+  },
+  {
+    class = '.bg-left-top',
+    value = {
+      ['background-position'] = 'left top',
+    },
+    title = 'Background Position',
+    description = 'Utilities for controlling the position of an element\'s background image.',
+  },
+  {
+    class = '.bg-right',
+    value = {
+      ['background-position'] = 'right',
+    },
+    title = 'Background Position',
+    description = 'Utilities for controlling the position of an element\'s background image.',
+  },
+  {
+    class = '.bg-right-bottom',
+    value = {
+      ['background-position'] = 'right bottom',
+    },
+    title = 'Background Position',
+    description = 'Utilities for controlling the position of an element\'s background image.',
+  },
+  {
+    class = '.bg-right-top',
+    value = {
+      ['background-position'] = 'right top',
+    },
+    title = 'Background Position',
+    description = 'Utilities for controlling the position of an element\'s background image.',
+  },
+  {
+    class = '.bg-top',
+    value = {
+      ['background-position'] = 'top',
+    },
+    title = 'Background Position',
+    description = 'Utilities for controlling the position of an element\'s background image.',
   },
   {
     class = '.bg-repeat',
@@ -27988,38 +28085,6 @@ return {
     description = 'Utilities for controlling the style of an element\'s borders.',
   },
   {
-    class = '.decoration-slice',
-    value = {
-      ['box-decoration-break'] = 'slice',
-    },
-    title = 'Box Decoration Break',
-    description = 'Utilities for controlling how element fragments should be rendered across multiple lines, columns, or pages.',
-  },
-  {
-    class = '.decoration-clone',
-    value = {
-      ['box-decoration-break'] = 'clone',
-    },
-    title = 'Box Decoration Break',
-    description = 'Utilities for controlling how element fragments should be rendered across multiple lines, columns, or pages.',
-  },
-  {
-    class = '.box-decoration-slice',
-    value = {
-      ['box-decoration-break'] = 'slice',
-    },
-    title = 'Box Decoration Break',
-    description = 'Utilities for controlling how element fragments should be rendered across multiple lines, columns, or pages.',
-  },
-  {
-    class = '.box-decoration-clone',
-    value = {
-      ['box-decoration-break'] = 'clone',
-    },
-    title = 'Box Decoration Break',
-    description = 'Utilities for controlling how element fragments should be rendered across multiple lines, columns, or pages.',
-  },
-  {
     class = '.border-0',
     value = {
       ['border-width'] = '0px',
@@ -28388,6 +28453,38 @@ return {
     },
     title = 'Border Width',
     description = 'Utilities for controlling the width of an element\'s borders.',
+  },
+  {
+    class = '.decoration-slice',
+    value = {
+      ['box-decoration-break'] = 'slice',
+    },
+    title = 'Box Decoration Break',
+    description = 'Utilities for controlling how element fragments should be rendered across multiple lines, columns, or pages.',
+  },
+  {
+    class = '.decoration-clone',
+    value = {
+      ['box-decoration-break'] = 'clone',
+    },
+    title = 'Box Decoration Break',
+    description = 'Utilities for controlling how element fragments should be rendered across multiple lines, columns, or pages.',
+  },
+  {
+    class = '.box-decoration-slice',
+    value = {
+      ['box-decoration-break'] = 'slice',
+    },
+    title = 'Box Decoration Break',
+    description = 'Utilities for controlling how element fragments should be rendered across multiple lines, columns, or pages.',
+  },
+  {
+    class = '.box-decoration-clone',
+    value = {
+      ['box-decoration-break'] = 'clone',
+    },
+    title = 'Box Decoration Break',
+    description = 'Utilities for controlling how element fragments should be rendered across multiple lines, columns, or pages.',
   },
   {
     class = '.shadow-inherit',
@@ -30693,6 +30790,22 @@ return {
     description = 'Utilities for controlling the box shadow of an element.',
   },
   {
+    class = '.box-border',
+    value = {
+      ['box-sizing'] = 'border-box',
+    },
+    title = 'Box Sizing',
+    description = 'Utilities for controlling how the browser should calculate an element\'s total size.',
+  },
+  {
+    class = '.box-content',
+    value = {
+      ['box-sizing'] = 'content-box',
+    },
+    title = 'Box Sizing',
+    description = 'Utilities for controlling how the browser should calculate an element\'s total size.',
+  },
+  {
     class = '.break-after-auto',
     value = {
       ['break-after'] = 'auto',
@@ -30755,22 +30868,6 @@ return {
     },
     title = 'Break After',
     description = 'Utilities for controlling how a column or page should break after an element.',
-  },
-  {
-    class = '.box-border',
-    value = {
-      ['box-sizing'] = 'border-box',
-    },
-    title = 'Box Sizing',
-    description = 'Utilities for controlling how the browser should calculate an element\'s total size.',
-  },
-  {
-    class = '.box-content',
-    value = {
-      ['box-sizing'] = 'content-box',
-    },
-    title = 'Box Sizing',
-    description = 'Utilities for controlling how the browser should calculate an element\'s total size.',
   },
   {
     class = '.break-before-auto',
@@ -33053,238 +33150,6 @@ return {
     },
     title = 'Contrast',
     description = 'Utilities for applying contrast filters to an element.',
-  },
-  {
-    class = '.columns-1',
-    value = {
-      columns = '1',
-    },
-    title = 'Columns',
-    description = 'Utilities for controlling the number of columns within an element.',
-  },
-  {
-    class = '.columns-2',
-    value = {
-      columns = '2',
-    },
-    title = 'Columns',
-    description = 'Utilities for controlling the number of columns within an element.',
-  },
-  {
-    class = '.columns-3',
-    value = {
-      columns = '3',
-    },
-    title = 'Columns',
-    description = 'Utilities for controlling the number of columns within an element.',
-  },
-  {
-    class = '.columns-4',
-    value = {
-      columns = '4',
-    },
-    title = 'Columns',
-    description = 'Utilities for controlling the number of columns within an element.',
-  },
-  {
-    class = '.columns-5',
-    value = {
-      columns = '5',
-    },
-    title = 'Columns',
-    description = 'Utilities for controlling the number of columns within an element.',
-  },
-  {
-    class = '.columns-6',
-    value = {
-      columns = '6',
-    },
-    title = 'Columns',
-    description = 'Utilities for controlling the number of columns within an element.',
-  },
-  {
-    class = '.columns-7',
-    value = {
-      columns = '7',
-    },
-    title = 'Columns',
-    description = 'Utilities for controlling the number of columns within an element.',
-  },
-  {
-    class = '.columns-8',
-    value = {
-      columns = '8',
-    },
-    title = 'Columns',
-    description = 'Utilities for controlling the number of columns within an element.',
-  },
-  {
-    class = '.columns-9',
-    value = {
-      columns = '9',
-    },
-    title = 'Columns',
-    description = 'Utilities for controlling the number of columns within an element.',
-  },
-  {
-    class = '.columns-10',
-    value = {
-      columns = '10',
-    },
-    title = 'Columns',
-    description = 'Utilities for controlling the number of columns within an element.',
-  },
-  {
-    class = '.columns-11',
-    value = {
-      columns = '11',
-    },
-    title = 'Columns',
-    description = 'Utilities for controlling the number of columns within an element.',
-  },
-  {
-    class = '.columns-12',
-    value = {
-      columns = '12',
-    },
-    title = 'Columns',
-    description = 'Utilities for controlling the number of columns within an element.',
-  },
-  {
-    class = '.columns-auto',
-    value = {
-      columns = 'auto',
-    },
-    title = 'Columns',
-    description = 'Utilities for controlling the number of columns within an element.',
-  },
-  {
-    class = '.columns-3xs',
-    value = {
-      columns = '16rem',
-    },
-    title = 'Columns',
-    description = 'Utilities for controlling the number of columns within an element.',
-  },
-  {
-    class = '.columns-2xs',
-    value = {
-      columns = '18rem',
-    },
-    title = 'Columns',
-    description = 'Utilities for controlling the number of columns within an element.',
-  },
-  {
-    class = '.columns-xs',
-    value = {
-      columns = '20rem',
-    },
-    title = 'Columns',
-    description = 'Utilities for controlling the number of columns within an element.',
-  },
-  {
-    class = '.columns-sm',
-    value = {
-      columns = '24rem',
-    },
-    title = 'Columns',
-    description = 'Utilities for controlling the number of columns within an element.',
-  },
-  {
-    class = '.columns-md',
-    value = {
-      columns = '28rem',
-    },
-    title = 'Columns',
-    description = 'Utilities for controlling the number of columns within an element.',
-  },
-  {
-    class = '.columns-lg',
-    value = {
-      columns = '32rem',
-    },
-    title = 'Columns',
-    description = 'Utilities for controlling the number of columns within an element.',
-  },
-  {
-    class = '.columns-xl',
-    value = {
-      columns = '36rem',
-    },
-    title = 'Columns',
-    description = 'Utilities for controlling the number of columns within an element.',
-  },
-  {
-    class = '.columns-2xl',
-    value = {
-      columns = '42rem',
-    },
-    title = 'Columns',
-    description = 'Utilities for controlling the number of columns within an element.',
-  },
-  {
-    class = '.columns-3xl',
-    value = {
-      columns = '48rem',
-    },
-    title = 'Columns',
-    description = 'Utilities for controlling the number of columns within an element.',
-  },
-  {
-    class = '.columns-4xl',
-    value = {
-      columns = '56rem',
-    },
-    title = 'Columns',
-    description = 'Utilities for controlling the number of columns within an element.',
-  },
-  {
-    class = '.columns-5xl',
-    value = {
-      columns = '64rem',
-    },
-    title = 'Columns',
-    description = 'Utilities for controlling the number of columns within an element.',
-  },
-  {
-    class = '.columns-6xl',
-    value = {
-      columns = '72rem',
-    },
-    title = 'Columns',
-    description = 'Utilities for controlling the number of columns within an element.',
-  },
-  {
-    class = '.columns-7xl',
-    value = {
-      columns = '80rem',
-    },
-    title = 'Columns',
-    description = 'Utilities for controlling the number of columns within an element.',
-  },
-  {
-    class = '.bg-origin-border',
-    value = {
-      ['background-origin'] = 'border-box',
-    },
-    title = 'Background Origin',
-    description = 'Utilities for controlling how an element\'s background is positioned relative to borders, padding, and content.',
-  },
-  {
-    class = '.bg-origin-padding',
-    value = {
-      ['background-origin'] = 'padding-box',
-    },
-    title = 'Background Origin',
-    description = 'Utilities for controlling how an element\'s background is positioned relative to borders, padding, and content.',
-  },
-  {
-    class = '.bg-origin-content',
-    value = {
-      ['background-origin'] = 'content-box',
-    },
-    title = 'Background Origin',
-    description = 'Utilities for controlling how an element\'s background is positioned relative to borders, padding, and content.',
   },
   {
     class = '.cursor-auto',
@@ -38923,6 +38788,22 @@ return {
     description = 'Utilities for controlling the font size of an element.',
   },
   {
+    class = '.italic',
+    value = {
+      ['font-style'] = 'italic',
+    },
+    title = 'Font Style',
+    description = 'Utilities for controlling the style of text.',
+  },
+  {
+    class = '.not-italic',
+    value = {
+      ['font-style'] = 'normal',
+    },
+    title = 'Font Style',
+    description = 'Utilities for controlling the style of text.',
+  },
+  {
     class = '.antialiased',
     value = {
       ['-webkit-font-smoothing'] = 'antialiased',
@@ -38939,22 +38820,6 @@ return {
     },
     title = 'Font Smoothing',
     description = 'Utilities for controlling the font smoothing of an element.',
-  },
-  {
-    class = '.italic',
-    value = {
-      ['font-style'] = 'italic',
-    },
-    title = 'Font Style',
-    description = 'Utilities for controlling the style of text.',
-  },
-  {
-    class = '.not-italic',
-    value = {
-      ['font-style'] = 'normal',
-    },
-    title = 'Font Style',
-    description = 'Utilities for controlling the style of text.',
   },
   {
     class = '.font-thin',
@@ -47042,24 +46907,6 @@ return {
     description = 'Utilities for controlling the color stops in background gradients.',
   },
   {
-    class = '.grayscale-0',
-    value = {
-      ['--tw-grayscale'] = 'grayscale(0)',
-      filter = 'var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)',
-    },
-    title = 'Grayscale',
-    description = 'Utilities for applying grayscale filters to an element.',
-  },
-  {
-    class = '.grayscale',
-    value = {
-      ['--tw-grayscale'] = 'grayscale(100%)',
-      filter = 'var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)',
-    },
-    title = 'Grayscale',
-    description = 'Utilities for applying grayscale filters to an element.',
-  },
-  {
     class = '.auto-cols-auto',
     value = {
       ['grid-auto-columns'] = 'auto',
@@ -47092,36 +46939,22 @@ return {
     description = 'Utilities for controlling the size of implicitly-created grid columns.',
   },
   {
-    class = '.auto-rows-auto',
+    class = '.grayscale-0',
     value = {
-      ['grid-auto-rows'] = 'auto',
+      ['--tw-grayscale'] = 'grayscale(0)',
+      filter = 'var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)',
     },
-    title = 'Grid Auto Rows',
-    description = 'Utilities for controlling the size of implicitly-created grid rows.',
+    title = 'Grayscale',
+    description = 'Utilities for applying grayscale filters to an element.',
   },
   {
-    class = '.auto-rows-min',
+    class = '.grayscale',
     value = {
-      ['grid-auto-rows'] = 'min-content',
+      ['--tw-grayscale'] = 'grayscale(100%)',
+      filter = 'var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)',
     },
-    title = 'Grid Auto Rows',
-    description = 'Utilities for controlling the size of implicitly-created grid rows.',
-  },
-  {
-    class = '.auto-rows-max',
-    value = {
-      ['grid-auto-rows'] = 'max-content',
-    },
-    title = 'Grid Auto Rows',
-    description = 'Utilities for controlling the size of implicitly-created grid rows.',
-  },
-  {
-    class = '.auto-rows-fr',
-    value = {
-      ['grid-auto-rows'] = 'minmax(0, 1fr)',
-    },
-    title = 'Grid Auto Rows',
-    description = 'Utilities for controlling the size of implicitly-created grid rows.',
+    title = 'Grayscale',
+    description = 'Utilities for applying grayscale filters to an element.',
   },
   {
     class = '.grid-flow-row',
@@ -47162,6 +46995,38 @@ return {
     },
     title = 'Grid Auto Flow',
     description = 'Utilities for controlling how elements in a grid are auto-placed.',
+  },
+  {
+    class = '.auto-rows-auto',
+    value = {
+      ['grid-auto-rows'] = 'auto',
+    },
+    title = 'Grid Auto Rows',
+    description = 'Utilities for controlling the size of implicitly-created grid rows.',
+  },
+  {
+    class = '.auto-rows-min',
+    value = {
+      ['grid-auto-rows'] = 'min-content',
+    },
+    title = 'Grid Auto Rows',
+    description = 'Utilities for controlling the size of implicitly-created grid rows.',
+  },
+  {
+    class = '.auto-rows-max',
+    value = {
+      ['grid-auto-rows'] = 'max-content',
+    },
+    title = 'Grid Auto Rows',
+    description = 'Utilities for controlling the size of implicitly-created grid rows.',
+  },
+  {
+    class = '.auto-rows-fr',
+    value = {
+      ['grid-auto-rows'] = 'minmax(0, 1fr)',
+    },
+    title = 'Grid Auto Rows',
+    description = 'Utilities for controlling the size of implicitly-created grid rows.',
   },
   {
     class = '.col-auto',
@@ -47948,6 +47813,84 @@ return {
     description = 'Utilities for setting the height of an element.',
   },
   {
+    class = '.hue-rotate-0',
+    value = {
+      ['--tw-hue-rotate'] = 'hue-rotate(0deg)',
+      filter = 'var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)',
+    },
+    title = 'Hue Rotate',
+    description = 'Utilities for applying hue-rotate filters to an element.',
+  },
+  {
+    class = '.hue-rotate-15',
+    value = {
+      ['--tw-hue-rotate'] = 'hue-rotate(15deg)',
+      filter = 'var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)',
+    },
+    title = 'Hue Rotate',
+    description = 'Utilities for applying hue-rotate filters to an element.',
+  },
+  {
+    class = '.hue-rotate-30',
+    value = {
+      ['--tw-hue-rotate'] = 'hue-rotate(30deg)',
+      filter = 'var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)',
+    },
+    title = 'Hue Rotate',
+    description = 'Utilities for applying hue-rotate filters to an element.',
+  },
+  {
+    class = '.hue-rotate-60',
+    value = {
+      ['--tw-hue-rotate'] = 'hue-rotate(60deg)',
+      filter = 'var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)',
+    },
+    title = 'Hue Rotate',
+    description = 'Utilities for applying hue-rotate filters to an element.',
+  },
+  {
+    class = '.hue-rotate-90',
+    value = {
+      ['--tw-hue-rotate'] = 'hue-rotate(90deg)',
+      filter = 'var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)',
+    },
+    title = 'Hue Rotate',
+    description = 'Utilities for applying hue-rotate filters to an element.',
+  },
+  {
+    class = '.hue-rotate-180',
+    value = {
+      ['--tw-hue-rotate'] = 'hue-rotate(180deg)',
+      filter = 'var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)',
+    },
+    title = 'Hue Rotate',
+    description = 'Utilities for applying hue-rotate filters to an element.',
+  },
+  {
+    class = '.hyphens-none',
+    value = {
+      hyphens = 'none',
+    },
+    title = 'Hyphens',
+    description = 'Utilities for controlling how words should be hyphenated.',
+  },
+  {
+    class = '.hyphens-manual',
+    value = {
+      hyphens = 'manual',
+    },
+    title = 'Hyphens',
+    description = 'Utilities for controlling how words should be hyphenated.',
+  },
+  {
+    class = '.hyphens-auto',
+    value = {
+      hyphens = 'auto',
+    },
+    title = 'Hyphens',
+    description = 'Utilities for controlling how words should be hyphenated.',
+  },
+  {
     class = '.invert-0',
     value = {
       ['--tw-invert'] = 'invert(0)',
@@ -47964,6 +47907,22 @@ return {
     },
     title = 'Invert',
     description = 'Utilities for applying invert filters to an element.',
+  },
+  {
+    class = '.isolate',
+    value = {
+      isolation = 'isolate',
+    },
+    title = 'Isolation',
+    description = 'Utilities for controlling whether an element should explicitly create a new stacking context.',
+  },
+  {
+    class = '.isolation-auto',
+    value = {
+      isolation = 'auto',
+    },
+    title = 'Isolation',
+    description = 'Utilities for controlling whether an element should explicitly create a new stacking context.',
   },
   {
     class = '.justify-normal',
@@ -48028,60 +47987,6 @@ return {
     },
     title = 'Justify Content',
     description = 'Utilities for controlling how flex and grid items are positioned along a container\'s main axis.',
-  },
-  {
-    class = '.hue-rotate-0',
-    value = {
-      ['--tw-hue-rotate'] = 'hue-rotate(0deg)',
-      filter = 'var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)',
-    },
-    title = 'Hue Rotate',
-    description = 'Utilities for applying hue-rotate filters to an element.',
-  },
-  {
-    class = '.hue-rotate-15',
-    value = {
-      ['--tw-hue-rotate'] = 'hue-rotate(15deg)',
-      filter = 'var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)',
-    },
-    title = 'Hue Rotate',
-    description = 'Utilities for applying hue-rotate filters to an element.',
-  },
-  {
-    class = '.hue-rotate-30',
-    value = {
-      ['--tw-hue-rotate'] = 'hue-rotate(30deg)',
-      filter = 'var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)',
-    },
-    title = 'Hue Rotate',
-    description = 'Utilities for applying hue-rotate filters to an element.',
-  },
-  {
-    class = '.hue-rotate-60',
-    value = {
-      ['--tw-hue-rotate'] = 'hue-rotate(60deg)',
-      filter = 'var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)',
-    },
-    title = 'Hue Rotate',
-    description = 'Utilities for applying hue-rotate filters to an element.',
-  },
-  {
-    class = '.hue-rotate-90',
-    value = {
-      ['--tw-hue-rotate'] = 'hue-rotate(90deg)',
-      filter = 'var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)',
-    },
-    title = 'Hue Rotate',
-    description = 'Utilities for applying hue-rotate filters to an element.',
-  },
-  {
-    class = '.hue-rotate-180',
-    value = {
-      ['--tw-hue-rotate'] = 'hue-rotate(180deg)',
-      filter = 'var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)',
-    },
-    title = 'Hue Rotate',
-    description = 'Utilities for applying hue-rotate filters to an element.',
   },
   {
     class = '.justify-items-start',
@@ -48154,22 +48059,6 @@ return {
     },
     title = 'Justify Self',
     description = 'Utilities for controlling how an individual grid item is aligned along its inline axis.',
-  },
-  {
-    class = '.isolate',
-    value = {
-      isolation = 'isolate',
-    },
-    title = 'Isolation',
-    description = 'Utilities for controlling whether an element should explicitly create a new stacking context.',
-  },
-  {
-    class = '.isolation-auto',
-    value = {
-      isolation = 'auto',
-    },
-    title = 'Isolation',
-    description = 'Utilities for controlling whether an element should explicitly create a new stacking context.',
   },
   {
     class = '.tracking-tighter',
@@ -51857,100 +51746,284 @@ return {
     description = 'Utilities for controlling how an element should blend with the background.',
   },
   {
-    class = '.hyphens-none',
+    class = '.columns-1',
     value = {
-      hyphens = 'none',
+      columns = '1',
     },
-    title = 'Hyphens',
-    description = 'Utilities for controlling how words should be hyphenated.',
+    title = 'Columns',
+    description = 'Utilities for controlling the number of columns within an element.',
   },
   {
-    class = '.hyphens-manual',
+    class = '.columns-2',
     value = {
-      hyphens = 'manual',
+      columns = '2',
     },
-    title = 'Hyphens',
-    description = 'Utilities for controlling how words should be hyphenated.',
+    title = 'Columns',
+    description = 'Utilities for controlling the number of columns within an element.',
   },
   {
-    class = '.hyphens-auto',
+    class = '.columns-3',
     value = {
-      hyphens = 'auto',
+      columns = '3',
     },
-    title = 'Hyphens',
-    description = 'Utilities for controlling how words should be hyphenated.',
+    title = 'Columns',
+    description = 'Utilities for controlling the number of columns within an element.',
   },
   {
-    class = '.bg-bottom',
+    class = '.columns-4',
     value = {
-      ['background-position'] = 'bottom',
+      columns = '4',
     },
-    title = 'Background Position',
-    description = 'Utilities for controlling the position of an element\'s background image.',
+    title = 'Columns',
+    description = 'Utilities for controlling the number of columns within an element.',
   },
   {
-    class = '.bg-center',
+    class = '.columns-5',
     value = {
-      ['background-position'] = 'center',
+      columns = '5',
     },
-    title = 'Background Position',
-    description = 'Utilities for controlling the position of an element\'s background image.',
+    title = 'Columns',
+    description = 'Utilities for controlling the number of columns within an element.',
   },
   {
-    class = '.bg-left',
+    class = '.columns-6',
     value = {
-      ['background-position'] = 'left',
+      columns = '6',
     },
-    title = 'Background Position',
-    description = 'Utilities for controlling the position of an element\'s background image.',
+    title = 'Columns',
+    description = 'Utilities for controlling the number of columns within an element.',
   },
   {
-    class = '.bg-left-bottom',
+    class = '.columns-7',
     value = {
-      ['background-position'] = 'left bottom',
+      columns = '7',
     },
-    title = 'Background Position',
-    description = 'Utilities for controlling the position of an element\'s background image.',
+    title = 'Columns',
+    description = 'Utilities for controlling the number of columns within an element.',
   },
   {
-    class = '.bg-left-top',
+    class = '.columns-8',
     value = {
-      ['background-position'] = 'left top',
+      columns = '8',
     },
-    title = 'Background Position',
-    description = 'Utilities for controlling the position of an element\'s background image.',
+    title = 'Columns',
+    description = 'Utilities for controlling the number of columns within an element.',
   },
   {
-    class = '.bg-right',
+    class = '.columns-9',
     value = {
-      ['background-position'] = 'right',
+      columns = '9',
     },
-    title = 'Background Position',
-    description = 'Utilities for controlling the position of an element\'s background image.',
+    title = 'Columns',
+    description = 'Utilities for controlling the number of columns within an element.',
   },
   {
-    class = '.bg-right-bottom',
+    class = '.columns-10',
     value = {
-      ['background-position'] = 'right bottom',
+      columns = '10',
     },
-    title = 'Background Position',
-    description = 'Utilities for controlling the position of an element\'s background image.',
+    title = 'Columns',
+    description = 'Utilities for controlling the number of columns within an element.',
   },
   {
-    class = '.bg-right-top',
+    class = '.columns-11',
     value = {
-      ['background-position'] = 'right top',
+      columns = '11',
     },
-    title = 'Background Position',
-    description = 'Utilities for controlling the position of an element\'s background image.',
+    title = 'Columns',
+    description = 'Utilities for controlling the number of columns within an element.',
   },
   {
-    class = '.bg-top',
+    class = '.columns-12',
     value = {
-      ['background-position'] = 'top',
+      columns = '12',
     },
-    title = 'Background Position',
-    description = 'Utilities for controlling the position of an element\'s background image.',
+    title = 'Columns',
+    description = 'Utilities for controlling the number of columns within an element.',
+  },
+  {
+    class = '.columns-auto',
+    value = {
+      columns = 'auto',
+    },
+    title = 'Columns',
+    description = 'Utilities for controlling the number of columns within an element.',
+  },
+  {
+    class = '.columns-3xs',
+    value = {
+      columns = '16rem',
+    },
+    title = 'Columns',
+    description = 'Utilities for controlling the number of columns within an element.',
+  },
+  {
+    class = '.columns-2xs',
+    value = {
+      columns = '18rem',
+    },
+    title = 'Columns',
+    description = 'Utilities for controlling the number of columns within an element.',
+  },
+  {
+    class = '.columns-xs',
+    value = {
+      columns = '20rem',
+    },
+    title = 'Columns',
+    description = 'Utilities for controlling the number of columns within an element.',
+  },
+  {
+    class = '.columns-sm',
+    value = {
+      columns = '24rem',
+    },
+    title = 'Columns',
+    description = 'Utilities for controlling the number of columns within an element.',
+  },
+  {
+    class = '.columns-md',
+    value = {
+      columns = '28rem',
+    },
+    title = 'Columns',
+    description = 'Utilities for controlling the number of columns within an element.',
+  },
+  {
+    class = '.columns-lg',
+    value = {
+      columns = '32rem',
+    },
+    title = 'Columns',
+    description = 'Utilities for controlling the number of columns within an element.',
+  },
+  {
+    class = '.columns-xl',
+    value = {
+      columns = '36rem',
+    },
+    title = 'Columns',
+    description = 'Utilities for controlling the number of columns within an element.',
+  },
+  {
+    class = '.columns-2xl',
+    value = {
+      columns = '42rem',
+    },
+    title = 'Columns',
+    description = 'Utilities for controlling the number of columns within an element.',
+  },
+  {
+    class = '.columns-3xl',
+    value = {
+      columns = '48rem',
+    },
+    title = 'Columns',
+    description = 'Utilities for controlling the number of columns within an element.',
+  },
+  {
+    class = '.columns-4xl',
+    value = {
+      columns = '56rem',
+    },
+    title = 'Columns',
+    description = 'Utilities for controlling the number of columns within an element.',
+  },
+  {
+    class = '.columns-5xl',
+    value = {
+      columns = '64rem',
+    },
+    title = 'Columns',
+    description = 'Utilities for controlling the number of columns within an element.',
+  },
+  {
+    class = '.columns-6xl',
+    value = {
+      columns = '72rem',
+    },
+    title = 'Columns',
+    description = 'Utilities for controlling the number of columns within an element.',
+  },
+  {
+    class = '.columns-7xl',
+    value = {
+      columns = '80rem',
+    },
+    title = 'Columns',
+    description = 'Utilities for controlling the number of columns within an element.',
+  },
+  {
+    class = '.object-bottom',
+    value = {
+      ['object-position'] = 'bottom',
+    },
+    title = 'Object Position',
+    description = 'Utilities for controlling how a replaced element\'s content should be positioned within its container.',
+  },
+  {
+    class = '.object-center',
+    value = {
+      ['object-position'] = 'center',
+    },
+    title = 'Object Position',
+    description = 'Utilities for controlling how a replaced element\'s content should be positioned within its container.',
+  },
+  {
+    class = '.object-left',
+    value = {
+      ['object-position'] = 'left',
+    },
+    title = 'Object Position',
+    description = 'Utilities for controlling how a replaced element\'s content should be positioned within its container.',
+  },
+  {
+    class = '.object-left-bottom',
+    value = {
+      ['object-position'] = 'left bottom',
+    },
+    title = 'Object Position',
+    description = 'Utilities for controlling how a replaced element\'s content should be positioned within its container.',
+  },
+  {
+    class = '.object-left-top',
+    value = {
+      ['object-position'] = 'left top',
+    },
+    title = 'Object Position',
+    description = 'Utilities for controlling how a replaced element\'s content should be positioned within its container.',
+  },
+  {
+    class = '.object-right',
+    value = {
+      ['object-position'] = 'right',
+    },
+    title = 'Object Position',
+    description = 'Utilities for controlling how a replaced element\'s content should be positioned within its container.',
+  },
+  {
+    class = '.object-right-bottom',
+    value = {
+      ['object-position'] = 'right bottom',
+    },
+    title = 'Object Position',
+    description = 'Utilities for controlling how a replaced element\'s content should be positioned within its container.',
+  },
+  {
+    class = '.object-right-top',
+    value = {
+      ['object-position'] = 'right top',
+    },
+    title = 'Object Position',
+    description = 'Utilities for controlling how a replaced element\'s content should be positioned within its container.',
+  },
+  {
+    class = '.object-top',
+    value = {
+      ['object-position'] = 'top',
+    },
+    title = 'Object Position',
+    description = 'Utilities for controlling how a replaced element\'s content should be positioned within its container.',
   },
   {
     class = '.order-1',
@@ -54168,198 +54241,6 @@ return {
     },
     title = 'Outline Width',
     description = 'Utilities for controlling the width of an element\'s outline.',
-  },
-  {
-    class = '.opacity-0',
-    value = {
-      opacity = '0',
-    },
-    title = 'Opacity',
-    description = 'Utilities for controlling the opacity of an element.',
-  },
-  {
-    class = '.opacity-5',
-    value = {
-      opacity = '0.05',
-    },
-    title = 'Opacity',
-    description = 'Utilities for controlling the opacity of an element.',
-  },
-  {
-    class = '.opacity-10',
-    value = {
-      opacity = '0.1',
-    },
-    title = 'Opacity',
-    description = 'Utilities for controlling the opacity of an element.',
-  },
-  {
-    class = '.opacity-20',
-    value = {
-      opacity = '0.2',
-    },
-    title = 'Opacity',
-    description = 'Utilities for controlling the opacity of an element.',
-  },
-  {
-    class = '.opacity-25',
-    value = {
-      opacity = '0.25',
-    },
-    title = 'Opacity',
-    description = 'Utilities for controlling the opacity of an element.',
-  },
-  {
-    class = '.opacity-30',
-    value = {
-      opacity = '0.3',
-    },
-    title = 'Opacity',
-    description = 'Utilities for controlling the opacity of an element.',
-  },
-  {
-    class = '.opacity-40',
-    value = {
-      opacity = '0.4',
-    },
-    title = 'Opacity',
-    description = 'Utilities for controlling the opacity of an element.',
-  },
-  {
-    class = '.opacity-50',
-    value = {
-      opacity = '0.5',
-    },
-    title = 'Opacity',
-    description = 'Utilities for controlling the opacity of an element.',
-  },
-  {
-    class = '.opacity-60',
-    value = {
-      opacity = '0.6',
-    },
-    title = 'Opacity',
-    description = 'Utilities for controlling the opacity of an element.',
-  },
-  {
-    class = '.opacity-70',
-    value = {
-      opacity = '0.7',
-    },
-    title = 'Opacity',
-    description = 'Utilities for controlling the opacity of an element.',
-  },
-  {
-    class = '.opacity-75',
-    value = {
-      opacity = '0.75',
-    },
-    title = 'Opacity',
-    description = 'Utilities for controlling the opacity of an element.',
-  },
-  {
-    class = '.opacity-80',
-    value = {
-      opacity = '0.8',
-    },
-    title = 'Opacity',
-    description = 'Utilities for controlling the opacity of an element.',
-  },
-  {
-    class = '.opacity-90',
-    value = {
-      opacity = '0.9',
-    },
-    title = 'Opacity',
-    description = 'Utilities for controlling the opacity of an element.',
-  },
-  {
-    class = '.opacity-95',
-    value = {
-      opacity = '0.95',
-    },
-    title = 'Opacity',
-    description = 'Utilities for controlling the opacity of an element.',
-  },
-  {
-    class = '.opacity-100',
-    value = {
-      opacity = '1',
-    },
-    title = 'Opacity',
-    description = 'Utilities for controlling the opacity of an element.',
-  },
-  {
-    class = '.overscroll-auto',
-    value = {
-      ['overscroll-behavior'] = 'auto',
-    },
-    title = 'Overscroll Behavior',
-    description = 'Utilities for controlling how the browser behaves when reaching the boundary of a scrolling area.',
-  },
-  {
-    class = '.overscroll-contain',
-    value = {
-      ['overscroll-behavior'] = 'contain',
-    },
-    title = 'Overscroll Behavior',
-    description = 'Utilities for controlling how the browser behaves when reaching the boundary of a scrolling area.',
-  },
-  {
-    class = '.overscroll-none',
-    value = {
-      ['overscroll-behavior'] = 'none',
-    },
-    title = 'Overscroll Behavior',
-    description = 'Utilities for controlling how the browser behaves when reaching the boundary of a scrolling area.',
-  },
-  {
-    class = '.overscroll-y-auto',
-    value = {
-      ['overscroll-behavior-y'] = 'auto',
-    },
-    title = 'Overscroll Behavior',
-    description = 'Utilities for controlling how the browser behaves when reaching the boundary of a scrolling area.',
-  },
-  {
-    class = '.overscroll-y-contain',
-    value = {
-      ['overscroll-behavior-y'] = 'contain',
-    },
-    title = 'Overscroll Behavior',
-    description = 'Utilities for controlling how the browser behaves when reaching the boundary of a scrolling area.',
-  },
-  {
-    class = '.overscroll-y-none',
-    value = {
-      ['overscroll-behavior-y'] = 'none',
-    },
-    title = 'Overscroll Behavior',
-    description = 'Utilities for controlling how the browser behaves when reaching the boundary of a scrolling area.',
-  },
-  {
-    class = '.overscroll-x-auto',
-    value = {
-      ['overscroll-behavior-x'] = 'auto',
-    },
-    title = 'Overscroll Behavior',
-    description = 'Utilities for controlling how the browser behaves when reaching the boundary of a scrolling area.',
-  },
-  {
-    class = '.overscroll-x-contain',
-    value = {
-      ['overscroll-behavior-x'] = 'contain',
-    },
-    title = 'Overscroll Behavior',
-    description = 'Utilities for controlling how the browser behaves when reaching the boundary of a scrolling area.',
-  },
-  {
-    class = '.overscroll-x-none',
-    value = {
-      ['overscroll-behavior-x'] = 'none',
-    },
-    title = 'Overscroll Behavior',
-    description = 'Utilities for controlling how the browser behaves when reaching the boundary of a scrolling area.',
   },
   {
     class = '.overflow-auto',
@@ -57136,6 +57017,78 @@ return {
     description = 'Utilities for controlling how content is justified and aligned at the same time.',
   },
   {
+    class = '.overscroll-auto',
+    value = {
+      ['overscroll-behavior'] = 'auto',
+    },
+    title = 'Overscroll Behavior',
+    description = 'Utilities for controlling how the browser behaves when reaching the boundary of a scrolling area.',
+  },
+  {
+    class = '.overscroll-contain',
+    value = {
+      ['overscroll-behavior'] = 'contain',
+    },
+    title = 'Overscroll Behavior',
+    description = 'Utilities for controlling how the browser behaves when reaching the boundary of a scrolling area.',
+  },
+  {
+    class = '.overscroll-none',
+    value = {
+      ['overscroll-behavior'] = 'none',
+    },
+    title = 'Overscroll Behavior',
+    description = 'Utilities for controlling how the browser behaves when reaching the boundary of a scrolling area.',
+  },
+  {
+    class = '.overscroll-y-auto',
+    value = {
+      ['overscroll-behavior-y'] = 'auto',
+    },
+    title = 'Overscroll Behavior',
+    description = 'Utilities for controlling how the browser behaves when reaching the boundary of a scrolling area.',
+  },
+  {
+    class = '.overscroll-y-contain',
+    value = {
+      ['overscroll-behavior-y'] = 'contain',
+    },
+    title = 'Overscroll Behavior',
+    description = 'Utilities for controlling how the browser behaves when reaching the boundary of a scrolling area.',
+  },
+  {
+    class = '.overscroll-y-none',
+    value = {
+      ['overscroll-behavior-y'] = 'none',
+    },
+    title = 'Overscroll Behavior',
+    description = 'Utilities for controlling how the browser behaves when reaching the boundary of a scrolling area.',
+  },
+  {
+    class = '.overscroll-x-auto',
+    value = {
+      ['overscroll-behavior-x'] = 'auto',
+    },
+    title = 'Overscroll Behavior',
+    description = 'Utilities for controlling how the browser behaves when reaching the boundary of a scrolling area.',
+  },
+  {
+    class = '.overscroll-x-contain',
+    value = {
+      ['overscroll-behavior-x'] = 'contain',
+    },
+    title = 'Overscroll Behavior',
+    description = 'Utilities for controlling how the browser behaves when reaching the boundary of a scrolling area.',
+  },
+  {
+    class = '.overscroll-x-none',
+    value = {
+      ['overscroll-behavior-x'] = 'none',
+    },
+    title = 'Overscroll Behavior',
+    description = 'Utilities for controlling how the browser behaves when reaching the boundary of a scrolling area.',
+  },
+  {
     class = '.place-items-start',
     value = {
       ['place-items'] = 'start',
@@ -57216,22 +57169,6 @@ return {
     description = 'Utilities for controlling how an individual item is justified and aligned at the same time.',
   },
   {
-    class = '.pointer-events-none',
-    value = {
-      ['pointer-events'] = 'none',
-    },
-    title = 'Pointer Events',
-    description = 'Utilities for controlling whether an element responds to pointer events.',
-  },
-  {
-    class = '.pointer-events-auto',
-    value = {
-      ['pointer-events'] = 'auto',
-    },
-    title = 'Pointer Events',
-    description = 'Utilities for controlling whether an element responds to pointer events.',
-  },
-  {
     class = '.static',
     value = {
       position = 'static',
@@ -57270,6 +57207,22 @@ return {
     },
     title = 'Position',
     description = 'Utilities for controlling how an element is positioned in the DOM.',
+  },
+  {
+    class = '.pointer-events-none',
+    value = {
+      ['pointer-events'] = 'none',
+    },
+    title = 'Pointer Events',
+    description = 'Utilities for controlling whether an element responds to pointer events.',
+  },
+  {
+    class = '.pointer-events-auto',
+    value = {
+      ['pointer-events'] = 'auto',
+    },
+    title = 'Pointer Events',
+    description = 'Utilities for controlling whether an element responds to pointer events.',
   },
   {
     class = '.resize-none',
@@ -61689,51 +61642,6 @@ return {
     description = 'Utilities for rotating elements with transform.',
   },
   {
-    class = '.saturate-0',
-    value = {
-      ['--tw-saturate'] = 'saturate(0)',
-      filter = 'var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)',
-    },
-    title = 'Saturate',
-    description = 'Utilities for applying saturation filters to an element.',
-  },
-  {
-    class = '.saturate-50',
-    value = {
-      ['--tw-saturate'] = 'saturate(.5)',
-      filter = 'var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)',
-    },
-    title = 'Saturate',
-    description = 'Utilities for applying saturation filters to an element.',
-  },
-  {
-    class = '.saturate-100',
-    value = {
-      ['--tw-saturate'] = 'saturate(1)',
-      filter = 'var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)',
-    },
-    title = 'Saturate',
-    description = 'Utilities for applying saturation filters to an element.',
-  },
-  {
-    class = '.saturate-150',
-    value = {
-      ['--tw-saturate'] = 'saturate(1.5)',
-      filter = 'var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)',
-    },
-    title = 'Saturate',
-    description = 'Utilities for applying saturation filters to an element.',
-  },
-  {
-    class = '.saturate-200',
-    value = {
-      ['--tw-saturate'] = 'saturate(2)',
-      filter = 'var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)',
-    },
-    title = 'Saturate',
-    description = 'Utilities for applying saturation filters to an element.',
-  },
-  {
     class = '.scale-0',
     value = {
       ['--tw-scale-x'] = '0',
@@ -62012,6 +61920,51 @@ return {
     },
     title = 'Scale',
     description = 'Utilities for scaling elements with transform.',
+  },
+  {
+    class = '.saturate-0',
+    value = {
+      ['--tw-saturate'] = 'saturate(0)',
+      filter = 'var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)',
+    },
+    title = 'Saturate',
+    description = 'Utilities for applying saturation filters to an element.',
+  },
+  {
+    class = '.saturate-50',
+    value = {
+      ['--tw-saturate'] = 'saturate(.5)',
+      filter = 'var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)',
+    },
+    title = 'Saturate',
+    description = 'Utilities for applying saturation filters to an element.',
+  },
+  {
+    class = '.saturate-100',
+    value = {
+      ['--tw-saturate'] = 'saturate(1)',
+      filter = 'var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)',
+    },
+    title = 'Saturate',
+    description = 'Utilities for applying saturation filters to an element.',
+  },
+  {
+    class = '.saturate-150',
+    value = {
+      ['--tw-saturate'] = 'saturate(1.5)',
+      filter = 'var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)',
+    },
+    title = 'Saturate',
+    description = 'Utilities for applying saturation filters to an element.',
+  },
+  {
+    class = '.saturate-200',
+    value = {
+      ['--tw-saturate'] = 'saturate(2)',
+      filter = 'var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)',
+    },
+    title = 'Saturate',
+    description = 'Utilities for applying saturation filters to an element.',
   },
   {
     class = '.sr-only',
@@ -67289,24 +67242,6 @@ return {
     description = 'Utilities for controlling whether you can skip past possible snap positions.',
   },
   {
-    class = '.sepia-0',
-    value = {
-      ['--tw-sepia'] = 'sepia(0)',
-      filter = 'var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)',
-    },
-    title = 'Sepia',
-    description = 'Utilities for applying sepia filters to an element.',
-  },
-  {
-    class = '.sepia',
-    value = {
-      ['--tw-sepia'] = 'sepia(100%)',
-      filter = 'var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)',
-    },
-    title = 'Sepia',
-    description = 'Utilities for applying sepia filters to an element.',
-  },
-  {
     class = '.snap-none',
     value = {
       ['scroll-snap-type'] = 'none',
@@ -67353,6 +67288,132 @@ return {
     },
     title = 'Scroll Snap Type',
     description = 'Utilities for controlling how strictly snap points are enforced in a snap container.',
+  },
+  {
+    class = '.sepia-0',
+    value = {
+      ['--tw-sepia'] = 'sepia(0)',
+      filter = 'var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)',
+    },
+    title = 'Sepia',
+    description = 'Utilities for applying sepia filters to an element.',
+  },
+  {
+    class = '.sepia',
+    value = {
+      ['--tw-sepia'] = 'sepia(100%)',
+      filter = 'var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)',
+    },
+    title = 'Sepia',
+    description = 'Utilities for applying sepia filters to an element.',
+  },
+  {
+    class = '.skew-x-0',
+    value = {
+      ['--tw-skew-x'] = '0deg',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Skew',
+    description = 'Utilities for skewing elements with transform.',
+  },
+  {
+    class = '.skew-x-1',
+    value = {
+      ['--tw-skew-x'] = '1deg',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Skew',
+    description = 'Utilities for skewing elements with transform.',
+  },
+  {
+    class = '.skew-x-2',
+    value = {
+      ['--tw-skew-x'] = '2deg',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Skew',
+    description = 'Utilities for skewing elements with transform.',
+  },
+  {
+    class = '.skew-x-3',
+    value = {
+      ['--tw-skew-x'] = '3deg',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Skew',
+    description = 'Utilities for skewing elements with transform.',
+  },
+  {
+    class = '.skew-x-6',
+    value = {
+      ['--tw-skew-x'] = '6deg',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Skew',
+    description = 'Utilities for skewing elements with transform.',
+  },
+  {
+    class = '.skew-x-12',
+    value = {
+      ['--tw-skew-x'] = '12deg',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Skew',
+    description = 'Utilities for skewing elements with transform.',
+  },
+  {
+    class = '.skew-y-0',
+    value = {
+      ['--tw-skew-y'] = '0deg',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Skew',
+    description = 'Utilities for skewing elements with transform.',
+  },
+  {
+    class = '.skew-y-1',
+    value = {
+      ['--tw-skew-y'] = '1deg',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Skew',
+    description = 'Utilities for skewing elements with transform.',
+  },
+  {
+    class = '.skew-y-2',
+    value = {
+      ['--tw-skew-y'] = '2deg',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Skew',
+    description = 'Utilities for skewing elements with transform.',
+  },
+  {
+    class = '.skew-y-3',
+    value = {
+      ['--tw-skew-y'] = '3deg',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Skew',
+    description = 'Utilities for skewing elements with transform.',
+  },
+  {
+    class = '.skew-y-6',
+    value = {
+      ['--tw-skew-y'] = '6deg',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Skew',
+    description = 'Utilities for skewing elements with transform.',
+  },
+  {
+    class = '.skew-y-12',
+    value = {
+      ['--tw-skew-y'] = '12deg',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Skew',
+    description = 'Utilities for skewing elements with transform.',
   },
   {
     class = '.space-x-0 > :not([hidden]) ~ :not([hidden])',
@@ -70095,54 +70156,6 @@ return {
     description = 'Utilities for controlling the table layout algorithm.',
   },
   {
-    class = '.text-left',
-    value = {
-      ['text-align'] = 'left',
-    },
-    title = 'Text Align',
-    description = 'Utilities for controlling the alignment of text.',
-  },
-  {
-    class = '.text-center',
-    value = {
-      ['text-align'] = 'center',
-    },
-    title = 'Text Align',
-    description = 'Utilities for controlling the alignment of text.',
-  },
-  {
-    class = '.text-right',
-    value = {
-      ['text-align'] = 'right',
-    },
-    title = 'Text Align',
-    description = 'Utilities for controlling the alignment of text.',
-  },
-  {
-    class = '.text-justify',
-    value = {
-      ['text-align'] = 'justify',
-    },
-    title = 'Text Align',
-    description = 'Utilities for controlling the alignment of text.',
-  },
-  {
-    class = '.text-start',
-    value = {
-      ['text-align'] = 'start',
-    },
-    title = 'Text Align',
-    description = 'Utilities for controlling the alignment of text.',
-  },
-  {
-    class = '.text-end',
-    value = {
-      ['text-align'] = 'end',
-    },
-    title = 'Text Align',
-    description = 'Utilities for controlling the alignment of text.',
-  },
-  {
     class = '.text-inherit',
     value = {
       color = 'inherit',
@@ -72363,114 +72376,6 @@ return {
     description = 'Utilities for controlling the text color of an element.',
   },
   {
-    class = '.skew-x-0',
-    value = {
-      ['--tw-skew-x'] = '0deg',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Skew',
-    description = 'Utilities for skewing elements with transform.',
-  },
-  {
-    class = '.skew-x-1',
-    value = {
-      ['--tw-skew-x'] = '1deg',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Skew',
-    description = 'Utilities for skewing elements with transform.',
-  },
-  {
-    class = '.skew-x-2',
-    value = {
-      ['--tw-skew-x'] = '2deg',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Skew',
-    description = 'Utilities for skewing elements with transform.',
-  },
-  {
-    class = '.skew-x-3',
-    value = {
-      ['--tw-skew-x'] = '3deg',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Skew',
-    description = 'Utilities for skewing elements with transform.',
-  },
-  {
-    class = '.skew-x-6',
-    value = {
-      ['--tw-skew-x'] = '6deg',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Skew',
-    description = 'Utilities for skewing elements with transform.',
-  },
-  {
-    class = '.skew-x-12',
-    value = {
-      ['--tw-skew-x'] = '12deg',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Skew',
-    description = 'Utilities for skewing elements with transform.',
-  },
-  {
-    class = '.skew-y-0',
-    value = {
-      ['--tw-skew-y'] = '0deg',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Skew',
-    description = 'Utilities for skewing elements with transform.',
-  },
-  {
-    class = '.skew-y-1',
-    value = {
-      ['--tw-skew-y'] = '1deg',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Skew',
-    description = 'Utilities for skewing elements with transform.',
-  },
-  {
-    class = '.skew-y-2',
-    value = {
-      ['--tw-skew-y'] = '2deg',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Skew',
-    description = 'Utilities for skewing elements with transform.',
-  },
-  {
-    class = '.skew-y-3',
-    value = {
-      ['--tw-skew-y'] = '3deg',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Skew',
-    description = 'Utilities for skewing elements with transform.',
-  },
-  {
-    class = '.skew-y-6',
-    value = {
-      ['--tw-skew-y'] = '6deg',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Skew',
-    description = 'Utilities for skewing elements with transform.',
-  },
-  {
-    class = '.skew-y-12',
-    value = {
-      ['--tw-skew-y'] = '12deg',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Skew',
-    description = 'Utilities for skewing elements with transform.',
-  },
-  {
     class = '.decoration-inherit',
     value = {
       ['text-decoration-color'] = 'inherit',
@@ -74447,6 +74352,54 @@ return {
     description = 'Utilities for controlling the color of text decorations.',
   },
   {
+    class = '.text-left',
+    value = {
+      ['text-align'] = 'left',
+    },
+    title = 'Text Align',
+    description = 'Utilities for controlling the alignment of text.',
+  },
+  {
+    class = '.text-center',
+    value = {
+      ['text-align'] = 'center',
+    },
+    title = 'Text Align',
+    description = 'Utilities for controlling the alignment of text.',
+  },
+  {
+    class = '.text-right',
+    value = {
+      ['text-align'] = 'right',
+    },
+    title = 'Text Align',
+    description = 'Utilities for controlling the alignment of text.',
+  },
+  {
+    class = '.text-justify',
+    value = {
+      ['text-align'] = 'justify',
+    },
+    title = 'Text Align',
+    description = 'Utilities for controlling the alignment of text.',
+  },
+  {
+    class = '.text-start',
+    value = {
+      ['text-align'] = 'start',
+    },
+    title = 'Text Align',
+    description = 'Utilities for controlling the alignment of text.',
+  },
+  {
+    class = '.text-end',
+    value = {
+      ['text-align'] = 'end',
+    },
+    title = 'Text Align',
+    description = 'Utilities for controlling the alignment of text.',
+  },
+  {
     class = '.decoration-solid',
     value = {
       ['text-decoration-style'] = 'solid',
@@ -74933,6 +74886,1078 @@ return {
     },
     title = 'Text Underline Offset',
     description = 'Utilities for controlling the offset of a text underline.',
+  },
+  {
+    class = '.origin-center',
+    value = {
+      ['transform-origin'] = 'center',
+    },
+    title = 'Transform Origin',
+    description = 'Utilities for specifying the origin for an element\'s transformations.',
+  },
+  {
+    class = '.origin-top',
+    value = {
+      ['transform-origin'] = 'top',
+    },
+    title = 'Transform Origin',
+    description = 'Utilities for specifying the origin for an element\'s transformations.',
+  },
+  {
+    class = '.origin-top-right',
+    value = {
+      ['transform-origin'] = 'top right',
+    },
+    title = 'Transform Origin',
+    description = 'Utilities for specifying the origin for an element\'s transformations.',
+  },
+  {
+    class = '.origin-right',
+    value = {
+      ['transform-origin'] = 'right',
+    },
+    title = 'Transform Origin',
+    description = 'Utilities for specifying the origin for an element\'s transformations.',
+  },
+  {
+    class = '.origin-bottom-right',
+    value = {
+      ['transform-origin'] = 'bottom right',
+    },
+    title = 'Transform Origin',
+    description = 'Utilities for specifying the origin for an element\'s transformations.',
+  },
+  {
+    class = '.origin-bottom',
+    value = {
+      ['transform-origin'] = 'bottom',
+    },
+    title = 'Transform Origin',
+    description = 'Utilities for specifying the origin for an element\'s transformations.',
+  },
+  {
+    class = '.origin-bottom-left',
+    value = {
+      ['transform-origin'] = 'bottom left',
+    },
+    title = 'Transform Origin',
+    description = 'Utilities for specifying the origin for an element\'s transformations.',
+  },
+  {
+    class = '.origin-left',
+    value = {
+      ['transform-origin'] = 'left',
+    },
+    title = 'Transform Origin',
+    description = 'Utilities for specifying the origin for an element\'s transformations.',
+  },
+  {
+    class = '.origin-top-left',
+    value = {
+      ['transform-origin'] = 'top left',
+    },
+    title = 'Transform Origin',
+    description = 'Utilities for specifying the origin for an element\'s transformations.',
+  },
+  {
+    class = '.delay-0',
+    value = {
+      ['transition-delay'] = '0s',
+    },
+    title = 'Transition Delay',
+    description = 'Utilities for controlling the delay of CSS transitions.',
+  },
+  {
+    class = '.delay-75',
+    value = {
+      ['transition-delay'] = '75ms',
+    },
+    title = 'Transition Delay',
+    description = 'Utilities for controlling the delay of CSS transitions.',
+  },
+  {
+    class = '.delay-100',
+    value = {
+      ['transition-delay'] = '100ms',
+    },
+    title = 'Transition Delay',
+    description = 'Utilities for controlling the delay of CSS transitions.',
+  },
+  {
+    class = '.delay-150',
+    value = {
+      ['transition-delay'] = '150ms',
+    },
+    title = 'Transition Delay',
+    description = 'Utilities for controlling the delay of CSS transitions.',
+  },
+  {
+    class = '.delay-200',
+    value = {
+      ['transition-delay'] = '200ms',
+    },
+    title = 'Transition Delay',
+    description = 'Utilities for controlling the delay of CSS transitions.',
+  },
+  {
+    class = '.delay-300',
+    value = {
+      ['transition-delay'] = '300ms',
+    },
+    title = 'Transition Delay',
+    description = 'Utilities for controlling the delay of CSS transitions.',
+  },
+  {
+    class = '.delay-500',
+    value = {
+      ['transition-delay'] = '500ms',
+    },
+    title = 'Transition Delay',
+    description = 'Utilities for controlling the delay of CSS transitions.',
+  },
+  {
+    class = '.delay-700',
+    value = {
+      ['transition-delay'] = '700ms',
+    },
+    title = 'Transition Delay',
+    description = 'Utilities for controlling the delay of CSS transitions.',
+  },
+  {
+    class = '.delay-1000',
+    value = {
+      ['transition-delay'] = '1000ms',
+    },
+    title = 'Transition Delay',
+    description = 'Utilities for controlling the delay of CSS transitions.',
+  },
+  {
+    class = '.duration-0',
+    value = {
+      ['transition-duration'] = '0s',
+    },
+    title = 'Transition Duration',
+    description = 'Utilities for controlling the duration of CSS transitions.',
+  },
+  {
+    class = '.duration-75',
+    value = {
+      ['transition-duration'] = '75ms',
+    },
+    title = 'Transition Duration',
+    description = 'Utilities for controlling the duration of CSS transitions.',
+  },
+  {
+    class = '.duration-100',
+    value = {
+      ['transition-duration'] = '100ms',
+    },
+    title = 'Transition Duration',
+    description = 'Utilities for controlling the duration of CSS transitions.',
+  },
+  {
+    class = '.duration-150',
+    value = {
+      ['transition-duration'] = '150ms',
+    },
+    title = 'Transition Duration',
+    description = 'Utilities for controlling the duration of CSS transitions.',
+  },
+  {
+    class = '.duration-200',
+    value = {
+      ['transition-duration'] = '200ms',
+    },
+    title = 'Transition Duration',
+    description = 'Utilities for controlling the duration of CSS transitions.',
+  },
+  {
+    class = '.duration-300',
+    value = {
+      ['transition-duration'] = '300ms',
+    },
+    title = 'Transition Duration',
+    description = 'Utilities for controlling the duration of CSS transitions.',
+  },
+  {
+    class = '.duration-500',
+    value = {
+      ['transition-duration'] = '500ms',
+    },
+    title = 'Transition Duration',
+    description = 'Utilities for controlling the duration of CSS transitions.',
+  },
+  {
+    class = '.duration-700',
+    value = {
+      ['transition-duration'] = '700ms',
+    },
+    title = 'Transition Duration',
+    description = 'Utilities for controlling the duration of CSS transitions.',
+  },
+  {
+    class = '.duration-1000',
+    value = {
+      ['transition-duration'] = '1000ms',
+    },
+    title = 'Transition Duration',
+    description = 'Utilities for controlling the duration of CSS transitions.',
+  },
+  {
+    class = '.transition-none',
+    value = {
+      ['transition-property'] = 'none',
+    },
+    title = 'Transition Property',
+    description = 'Utilities for controlling which CSS properties transition.',
+  },
+  {
+    class = '.transition-all',
+    value = {
+      ['transition-property'] = 'all',
+      ['transition-timing-function'] = 'cubic-bezier(0.4, 0, 0.2, 1)',
+      ['transition-duration'] = '150ms',
+    },
+    title = 'Transition Property',
+    description = 'Utilities for controlling which CSS properties transition.',
+  },
+  {
+    class = '.transition',
+    value = {
+      ['transition-property'] = 'color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter',
+      ['transition-timing-function'] = 'cubic-bezier(0.4, 0, 0.2, 1)',
+      ['transition-duration'] = '150ms',
+    },
+    title = 'Transition Property',
+    description = 'Utilities for controlling which CSS properties transition.',
+  },
+  {
+    class = '.transition-colors',
+    value = {
+      ['transition-property'] = 'color, background-color, border-color, text-decoration-color, fill, stroke',
+      ['transition-timing-function'] = 'cubic-bezier(0.4, 0, 0.2, 1)',
+      ['transition-duration'] = '150ms',
+    },
+    title = 'Transition Property',
+    description = 'Utilities for controlling which CSS properties transition.',
+  },
+  {
+    class = '.transition-opacity',
+    value = {
+      ['transition-property'] = 'opacity',
+      ['transition-timing-function'] = 'cubic-bezier(0.4, 0, 0.2, 1)',
+      ['transition-duration'] = '150ms',
+    },
+    title = 'Transition Property',
+    description = 'Utilities for controlling which CSS properties transition.',
+  },
+  {
+    class = '.transition-shadow',
+    value = {
+      ['transition-property'] = 'box-shadow',
+      ['transition-timing-function'] = 'cubic-bezier(0.4, 0, 0.2, 1)',
+      ['transition-duration'] = '150ms',
+    },
+    title = 'Transition Property',
+    description = 'Utilities for controlling which CSS properties transition.',
+  },
+  {
+    class = '.transition-transform',
+    value = {
+      ['transition-property'] = 'transform',
+      ['transition-timing-function'] = 'cubic-bezier(0.4, 0, 0.2, 1)',
+      ['transition-duration'] = '150ms',
+    },
+    title = 'Transition Property',
+    description = 'Utilities for controlling which CSS properties transition.',
+  },
+  {
+    class = '.ease-linear',
+    value = {
+      ['transition-timing-function'] = 'linear',
+    },
+    title = 'Transition Timing Function',
+    description = 'Utilities for controlling the easing of CSS transitions.',
+  },
+  {
+    class = '.ease-in',
+    value = {
+      ['transition-timing-function'] = 'cubic-bezier(0.4, 0, 1, 1)',
+    },
+    title = 'Transition Timing Function',
+    description = 'Utilities for controlling the easing of CSS transitions.',
+  },
+  {
+    class = '.ease-out',
+    value = {
+      ['transition-timing-function'] = 'cubic-bezier(0, 0, 0.2, 1)',
+    },
+    title = 'Transition Timing Function',
+    description = 'Utilities for controlling the easing of CSS transitions.',
+  },
+  {
+    class = '.ease-in-out',
+    value = {
+      ['transition-timing-function'] = 'cubic-bezier(0.4, 0, 0.2, 1)',
+    },
+    title = 'Transition Timing Function',
+    description = 'Utilities for controlling the easing of CSS transitions.',
+  },
+  {
+    class = '.translate-x-0',
+    value = {
+      ['--tw-translate-x'] = '0px',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-x-1',
+    value = {
+      ['--tw-translate-x'] = '0.25rem',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-x-2',
+    value = {
+      ['--tw-translate-x'] = '0.5rem',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-x-3',
+    value = {
+      ['--tw-translate-x'] = '0.75rem',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-x-4',
+    value = {
+      ['--tw-translate-x'] = '1rem',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-x-5',
+    value = {
+      ['--tw-translate-x'] = '1.25rem',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-x-6',
+    value = {
+      ['--tw-translate-x'] = '1.5rem',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-x-7',
+    value = {
+      ['--tw-translate-x'] = '1.75rem',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-x-8',
+    value = {
+      ['--tw-translate-x'] = '2rem',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-x-9',
+    value = {
+      ['--tw-translate-x'] = '2.25rem',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-x-10',
+    value = {
+      ['--tw-translate-x'] = '2.5rem',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-x-11',
+    value = {
+      ['--tw-translate-x'] = '2.75rem',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-x-12',
+    value = {
+      ['--tw-translate-x'] = '3rem',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-x-14',
+    value = {
+      ['--tw-translate-x'] = '3.5rem',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-x-16',
+    value = {
+      ['--tw-translate-x'] = '4rem',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-x-20',
+    value = {
+      ['--tw-translate-x'] = '5rem',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-x-24',
+    value = {
+      ['--tw-translate-x'] = '6rem',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-x-28',
+    value = {
+      ['--tw-translate-x'] = '7rem',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-x-32',
+    value = {
+      ['--tw-translate-x'] = '8rem',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-x-36',
+    value = {
+      ['--tw-translate-x'] = '9rem',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-x-40',
+    value = {
+      ['--tw-translate-x'] = '10rem',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-x-44',
+    value = {
+      ['--tw-translate-x'] = '11rem',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-x-48',
+    value = {
+      ['--tw-translate-x'] = '12rem',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-x-52',
+    value = {
+      ['--tw-translate-x'] = '13rem',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-x-56',
+    value = {
+      ['--tw-translate-x'] = '14rem',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-x-60',
+    value = {
+      ['--tw-translate-x'] = '15rem',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-x-64',
+    value = {
+      ['--tw-translate-x'] = '16rem',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-x-72',
+    value = {
+      ['--tw-translate-x'] = '18rem',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-x-80',
+    value = {
+      ['--tw-translate-x'] = '20rem',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-x-96',
+    value = {
+      ['--tw-translate-x'] = '24rem',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-x-px',
+    value = {
+      ['--tw-translate-x'] = '1px',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-x-0.5',
+    value = {
+      ['--tw-translate-x'] = '0.125rem',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-x-1.5',
+    value = {
+      ['--tw-translate-x'] = '0.375rem',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-x-2.5',
+    value = {
+      ['--tw-translate-x'] = '0.625rem',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-x-3.5',
+    value = {
+      ['--tw-translate-x'] = '0.875rem',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-x-1/2',
+    value = {
+      ['--tw-translate-x'] = '50%',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-x-1/3',
+    value = {
+      ['--tw-translate-x'] = '33.333333%',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-x-2/3',
+    value = {
+      ['--tw-translate-x'] = '66.666667%',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-x-1/4',
+    value = {
+      ['--tw-translate-x'] = '25%',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-x-2/4',
+    value = {
+      ['--tw-translate-x'] = '50%',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-x-3/4',
+    value = {
+      ['--tw-translate-x'] = '75%',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-x-full',
+    value = {
+      ['--tw-translate-x'] = '100%',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-y-0',
+    value = {
+      ['--tw-translate-y'] = '0px',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-y-1',
+    value = {
+      ['--tw-translate-y'] = '0.25rem',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-y-2',
+    value = {
+      ['--tw-translate-y'] = '0.5rem',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-y-3',
+    value = {
+      ['--tw-translate-y'] = '0.75rem',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-y-4',
+    value = {
+      ['--tw-translate-y'] = '1rem',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-y-5',
+    value = {
+      ['--tw-translate-y'] = '1.25rem',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-y-6',
+    value = {
+      ['--tw-translate-y'] = '1.5rem',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-y-7',
+    value = {
+      ['--tw-translate-y'] = '1.75rem',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-y-8',
+    value = {
+      ['--tw-translate-y'] = '2rem',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-y-9',
+    value = {
+      ['--tw-translate-y'] = '2.25rem',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-y-10',
+    value = {
+      ['--tw-translate-y'] = '2.5rem',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-y-11',
+    value = {
+      ['--tw-translate-y'] = '2.75rem',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-y-12',
+    value = {
+      ['--tw-translate-y'] = '3rem',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-y-14',
+    value = {
+      ['--tw-translate-y'] = '3.5rem',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-y-16',
+    value = {
+      ['--tw-translate-y'] = '4rem',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-y-20',
+    value = {
+      ['--tw-translate-y'] = '5rem',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-y-24',
+    value = {
+      ['--tw-translate-y'] = '6rem',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-y-28',
+    value = {
+      ['--tw-translate-y'] = '7rem',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-y-32',
+    value = {
+      ['--tw-translate-y'] = '8rem',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-y-36',
+    value = {
+      ['--tw-translate-y'] = '9rem',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-y-40',
+    value = {
+      ['--tw-translate-y'] = '10rem',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-y-44',
+    value = {
+      ['--tw-translate-y'] = '11rem',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-y-48',
+    value = {
+      ['--tw-translate-y'] = '12rem',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-y-52',
+    value = {
+      ['--tw-translate-y'] = '13rem',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-y-56',
+    value = {
+      ['--tw-translate-y'] = '14rem',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-y-60',
+    value = {
+      ['--tw-translate-y'] = '15rem',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-y-64',
+    value = {
+      ['--tw-translate-y'] = '16rem',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-y-72',
+    value = {
+      ['--tw-translate-y'] = '18rem',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-y-80',
+    value = {
+      ['--tw-translate-y'] = '20rem',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-y-96',
+    value = {
+      ['--tw-translate-y'] = '24rem',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-y-px',
+    value = {
+      ['--tw-translate-y'] = '1px',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-y-0.5',
+    value = {
+      ['--tw-translate-y'] = '0.125rem',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-y-1.5',
+    value = {
+      ['--tw-translate-y'] = '0.375rem',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-y-2.5',
+    value = {
+      ['--tw-translate-y'] = '0.625rem',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-y-3.5',
+    value = {
+      ['--tw-translate-y'] = '0.875rem',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-y-1/2',
+    value = {
+      ['--tw-translate-y'] = '50%',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-y-1/3',
+    value = {
+      ['--tw-translate-y'] = '33.333333%',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-y-2/3',
+    value = {
+      ['--tw-translate-y'] = '66.666667%',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-y-1/4',
+    value = {
+      ['--tw-translate-y'] = '25%',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-y-2/4',
+    value = {
+      ['--tw-translate-y'] = '50%',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-y-3/4',
+    value = {
+      ['--tw-translate-y'] = '75%',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
+  },
+  {
+    class = '.translate-y-full',
+    value = {
+      ['--tw-translate-y'] = '100%',
+      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
+    },
+    title = 'Translate',
+    description = 'Utilities for translating elements with transform.',
   },
   {
     class = '.inset-0',
@@ -78117,1078 +79142,6 @@ return {
     description = 'Utilities for controlling the placement of positioned elements.',
   },
   {
-    class = '.origin-center',
-    value = {
-      ['transform-origin'] = 'center',
-    },
-    title = 'Transform Origin',
-    description = 'Utilities for specifying the origin for an element\'s transformations.',
-  },
-  {
-    class = '.origin-top',
-    value = {
-      ['transform-origin'] = 'top',
-    },
-    title = 'Transform Origin',
-    description = 'Utilities for specifying the origin for an element\'s transformations.',
-  },
-  {
-    class = '.origin-top-right',
-    value = {
-      ['transform-origin'] = 'top right',
-    },
-    title = 'Transform Origin',
-    description = 'Utilities for specifying the origin for an element\'s transformations.',
-  },
-  {
-    class = '.origin-right',
-    value = {
-      ['transform-origin'] = 'right',
-    },
-    title = 'Transform Origin',
-    description = 'Utilities for specifying the origin for an element\'s transformations.',
-  },
-  {
-    class = '.origin-bottom-right',
-    value = {
-      ['transform-origin'] = 'bottom right',
-    },
-    title = 'Transform Origin',
-    description = 'Utilities for specifying the origin for an element\'s transformations.',
-  },
-  {
-    class = '.origin-bottom',
-    value = {
-      ['transform-origin'] = 'bottom',
-    },
-    title = 'Transform Origin',
-    description = 'Utilities for specifying the origin for an element\'s transformations.',
-  },
-  {
-    class = '.origin-bottom-left',
-    value = {
-      ['transform-origin'] = 'bottom left',
-    },
-    title = 'Transform Origin',
-    description = 'Utilities for specifying the origin for an element\'s transformations.',
-  },
-  {
-    class = '.origin-left',
-    value = {
-      ['transform-origin'] = 'left',
-    },
-    title = 'Transform Origin',
-    description = 'Utilities for specifying the origin for an element\'s transformations.',
-  },
-  {
-    class = '.origin-top-left',
-    value = {
-      ['transform-origin'] = 'top left',
-    },
-    title = 'Transform Origin',
-    description = 'Utilities for specifying the origin for an element\'s transformations.',
-  },
-  {
-    class = '.delay-0',
-    value = {
-      ['transition-delay'] = '0s',
-    },
-    title = 'Transition Delay',
-    description = 'Utilities for controlling the delay of CSS transitions.',
-  },
-  {
-    class = '.delay-75',
-    value = {
-      ['transition-delay'] = '75ms',
-    },
-    title = 'Transition Delay',
-    description = 'Utilities for controlling the delay of CSS transitions.',
-  },
-  {
-    class = '.delay-100',
-    value = {
-      ['transition-delay'] = '100ms',
-    },
-    title = 'Transition Delay',
-    description = 'Utilities for controlling the delay of CSS transitions.',
-  },
-  {
-    class = '.delay-150',
-    value = {
-      ['transition-delay'] = '150ms',
-    },
-    title = 'Transition Delay',
-    description = 'Utilities for controlling the delay of CSS transitions.',
-  },
-  {
-    class = '.delay-200',
-    value = {
-      ['transition-delay'] = '200ms',
-    },
-    title = 'Transition Delay',
-    description = 'Utilities for controlling the delay of CSS transitions.',
-  },
-  {
-    class = '.delay-300',
-    value = {
-      ['transition-delay'] = '300ms',
-    },
-    title = 'Transition Delay',
-    description = 'Utilities for controlling the delay of CSS transitions.',
-  },
-  {
-    class = '.delay-500',
-    value = {
-      ['transition-delay'] = '500ms',
-    },
-    title = 'Transition Delay',
-    description = 'Utilities for controlling the delay of CSS transitions.',
-  },
-  {
-    class = '.delay-700',
-    value = {
-      ['transition-delay'] = '700ms',
-    },
-    title = 'Transition Delay',
-    description = 'Utilities for controlling the delay of CSS transitions.',
-  },
-  {
-    class = '.delay-1000',
-    value = {
-      ['transition-delay'] = '1000ms',
-    },
-    title = 'Transition Delay',
-    description = 'Utilities for controlling the delay of CSS transitions.',
-  },
-  {
-    class = '.duration-0',
-    value = {
-      ['transition-duration'] = '0s',
-    },
-    title = 'Transition Duration',
-    description = 'Utilities for controlling the duration of CSS transitions.',
-  },
-  {
-    class = '.duration-75',
-    value = {
-      ['transition-duration'] = '75ms',
-    },
-    title = 'Transition Duration',
-    description = 'Utilities for controlling the duration of CSS transitions.',
-  },
-  {
-    class = '.duration-100',
-    value = {
-      ['transition-duration'] = '100ms',
-    },
-    title = 'Transition Duration',
-    description = 'Utilities for controlling the duration of CSS transitions.',
-  },
-  {
-    class = '.duration-150',
-    value = {
-      ['transition-duration'] = '150ms',
-    },
-    title = 'Transition Duration',
-    description = 'Utilities for controlling the duration of CSS transitions.',
-  },
-  {
-    class = '.duration-200',
-    value = {
-      ['transition-duration'] = '200ms',
-    },
-    title = 'Transition Duration',
-    description = 'Utilities for controlling the duration of CSS transitions.',
-  },
-  {
-    class = '.duration-300',
-    value = {
-      ['transition-duration'] = '300ms',
-    },
-    title = 'Transition Duration',
-    description = 'Utilities for controlling the duration of CSS transitions.',
-  },
-  {
-    class = '.duration-500',
-    value = {
-      ['transition-duration'] = '500ms',
-    },
-    title = 'Transition Duration',
-    description = 'Utilities for controlling the duration of CSS transitions.',
-  },
-  {
-    class = '.duration-700',
-    value = {
-      ['transition-duration'] = '700ms',
-    },
-    title = 'Transition Duration',
-    description = 'Utilities for controlling the duration of CSS transitions.',
-  },
-  {
-    class = '.duration-1000',
-    value = {
-      ['transition-duration'] = '1000ms',
-    },
-    title = 'Transition Duration',
-    description = 'Utilities for controlling the duration of CSS transitions.',
-  },
-  {
-    class = '.transition-none',
-    value = {
-      ['transition-property'] = 'none',
-    },
-    title = 'Transition Property',
-    description = 'Utilities for controlling which CSS properties transition.',
-  },
-  {
-    class = '.transition-all',
-    value = {
-      ['transition-property'] = 'all',
-      ['transition-timing-function'] = 'cubic-bezier(0.4, 0, 0.2, 1)',
-      ['transition-duration'] = '150ms',
-    },
-    title = 'Transition Property',
-    description = 'Utilities for controlling which CSS properties transition.',
-  },
-  {
-    class = '.transition',
-    value = {
-      ['transition-property'] = 'color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter',
-      ['transition-timing-function'] = 'cubic-bezier(0.4, 0, 0.2, 1)',
-      ['transition-duration'] = '150ms',
-    },
-    title = 'Transition Property',
-    description = 'Utilities for controlling which CSS properties transition.',
-  },
-  {
-    class = '.transition-colors',
-    value = {
-      ['transition-property'] = 'color, background-color, border-color, text-decoration-color, fill, stroke',
-      ['transition-timing-function'] = 'cubic-bezier(0.4, 0, 0.2, 1)',
-      ['transition-duration'] = '150ms',
-    },
-    title = 'Transition Property',
-    description = 'Utilities for controlling which CSS properties transition.',
-  },
-  {
-    class = '.transition-opacity',
-    value = {
-      ['transition-property'] = 'opacity',
-      ['transition-timing-function'] = 'cubic-bezier(0.4, 0, 0.2, 1)',
-      ['transition-duration'] = '150ms',
-    },
-    title = 'Transition Property',
-    description = 'Utilities for controlling which CSS properties transition.',
-  },
-  {
-    class = '.transition-shadow',
-    value = {
-      ['transition-property'] = 'box-shadow',
-      ['transition-timing-function'] = 'cubic-bezier(0.4, 0, 0.2, 1)',
-      ['transition-duration'] = '150ms',
-    },
-    title = 'Transition Property',
-    description = 'Utilities for controlling which CSS properties transition.',
-  },
-  {
-    class = '.transition-transform',
-    value = {
-      ['transition-property'] = 'transform',
-      ['transition-timing-function'] = 'cubic-bezier(0.4, 0, 0.2, 1)',
-      ['transition-duration'] = '150ms',
-    },
-    title = 'Transition Property',
-    description = 'Utilities for controlling which CSS properties transition.',
-  },
-  {
-    class = '.ease-linear',
-    value = {
-      ['transition-timing-function'] = 'linear',
-    },
-    title = 'Transition Timing Function',
-    description = 'Utilities for controlling the easing of CSS transitions.',
-  },
-  {
-    class = '.ease-in',
-    value = {
-      ['transition-timing-function'] = 'cubic-bezier(0.4, 0, 1, 1)',
-    },
-    title = 'Transition Timing Function',
-    description = 'Utilities for controlling the easing of CSS transitions.',
-  },
-  {
-    class = '.ease-out',
-    value = {
-      ['transition-timing-function'] = 'cubic-bezier(0, 0, 0.2, 1)',
-    },
-    title = 'Transition Timing Function',
-    description = 'Utilities for controlling the easing of CSS transitions.',
-  },
-  {
-    class = '.ease-in-out',
-    value = {
-      ['transition-timing-function'] = 'cubic-bezier(0.4, 0, 0.2, 1)',
-    },
-    title = 'Transition Timing Function',
-    description = 'Utilities for controlling the easing of CSS transitions.',
-  },
-  {
-    class = '.translate-x-0',
-    value = {
-      ['--tw-translate-x'] = '0px',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-x-1',
-    value = {
-      ['--tw-translate-x'] = '0.25rem',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-x-2',
-    value = {
-      ['--tw-translate-x'] = '0.5rem',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-x-3',
-    value = {
-      ['--tw-translate-x'] = '0.75rem',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-x-4',
-    value = {
-      ['--tw-translate-x'] = '1rem',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-x-5',
-    value = {
-      ['--tw-translate-x'] = '1.25rem',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-x-6',
-    value = {
-      ['--tw-translate-x'] = '1.5rem',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-x-7',
-    value = {
-      ['--tw-translate-x'] = '1.75rem',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-x-8',
-    value = {
-      ['--tw-translate-x'] = '2rem',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-x-9',
-    value = {
-      ['--tw-translate-x'] = '2.25rem',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-x-10',
-    value = {
-      ['--tw-translate-x'] = '2.5rem',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-x-11',
-    value = {
-      ['--tw-translate-x'] = '2.75rem',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-x-12',
-    value = {
-      ['--tw-translate-x'] = '3rem',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-x-14',
-    value = {
-      ['--tw-translate-x'] = '3.5rem',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-x-16',
-    value = {
-      ['--tw-translate-x'] = '4rem',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-x-20',
-    value = {
-      ['--tw-translate-x'] = '5rem',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-x-24',
-    value = {
-      ['--tw-translate-x'] = '6rem',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-x-28',
-    value = {
-      ['--tw-translate-x'] = '7rem',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-x-32',
-    value = {
-      ['--tw-translate-x'] = '8rem',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-x-36',
-    value = {
-      ['--tw-translate-x'] = '9rem',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-x-40',
-    value = {
-      ['--tw-translate-x'] = '10rem',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-x-44',
-    value = {
-      ['--tw-translate-x'] = '11rem',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-x-48',
-    value = {
-      ['--tw-translate-x'] = '12rem',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-x-52',
-    value = {
-      ['--tw-translate-x'] = '13rem',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-x-56',
-    value = {
-      ['--tw-translate-x'] = '14rem',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-x-60',
-    value = {
-      ['--tw-translate-x'] = '15rem',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-x-64',
-    value = {
-      ['--tw-translate-x'] = '16rem',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-x-72',
-    value = {
-      ['--tw-translate-x'] = '18rem',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-x-80',
-    value = {
-      ['--tw-translate-x'] = '20rem',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-x-96',
-    value = {
-      ['--tw-translate-x'] = '24rem',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-x-px',
-    value = {
-      ['--tw-translate-x'] = '1px',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-x-0.5',
-    value = {
-      ['--tw-translate-x'] = '0.125rem',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-x-1.5',
-    value = {
-      ['--tw-translate-x'] = '0.375rem',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-x-2.5',
-    value = {
-      ['--tw-translate-x'] = '0.625rem',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-x-3.5',
-    value = {
-      ['--tw-translate-x'] = '0.875rem',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-x-1/2',
-    value = {
-      ['--tw-translate-x'] = '50%',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-x-1/3',
-    value = {
-      ['--tw-translate-x'] = '33.333333%',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-x-2/3',
-    value = {
-      ['--tw-translate-x'] = '66.666667%',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-x-1/4',
-    value = {
-      ['--tw-translate-x'] = '25%',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-x-2/4',
-    value = {
-      ['--tw-translate-x'] = '50%',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-x-3/4',
-    value = {
-      ['--tw-translate-x'] = '75%',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-x-full',
-    value = {
-      ['--tw-translate-x'] = '100%',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-y-0',
-    value = {
-      ['--tw-translate-y'] = '0px',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-y-1',
-    value = {
-      ['--tw-translate-y'] = '0.25rem',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-y-2',
-    value = {
-      ['--tw-translate-y'] = '0.5rem',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-y-3',
-    value = {
-      ['--tw-translate-y'] = '0.75rem',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-y-4',
-    value = {
-      ['--tw-translate-y'] = '1rem',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-y-5',
-    value = {
-      ['--tw-translate-y'] = '1.25rem',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-y-6',
-    value = {
-      ['--tw-translate-y'] = '1.5rem',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-y-7',
-    value = {
-      ['--tw-translate-y'] = '1.75rem',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-y-8',
-    value = {
-      ['--tw-translate-y'] = '2rem',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-y-9',
-    value = {
-      ['--tw-translate-y'] = '2.25rem',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-y-10',
-    value = {
-      ['--tw-translate-y'] = '2.5rem',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-y-11',
-    value = {
-      ['--tw-translate-y'] = '2.75rem',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-y-12',
-    value = {
-      ['--tw-translate-y'] = '3rem',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-y-14',
-    value = {
-      ['--tw-translate-y'] = '3.5rem',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-y-16',
-    value = {
-      ['--tw-translate-y'] = '4rem',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-y-20',
-    value = {
-      ['--tw-translate-y'] = '5rem',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-y-24',
-    value = {
-      ['--tw-translate-y'] = '6rem',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-y-28',
-    value = {
-      ['--tw-translate-y'] = '7rem',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-y-32',
-    value = {
-      ['--tw-translate-y'] = '8rem',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-y-36',
-    value = {
-      ['--tw-translate-y'] = '9rem',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-y-40',
-    value = {
-      ['--tw-translate-y'] = '10rem',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-y-44',
-    value = {
-      ['--tw-translate-y'] = '11rem',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-y-48',
-    value = {
-      ['--tw-translate-y'] = '12rem',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-y-52',
-    value = {
-      ['--tw-translate-y'] = '13rem',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-y-56',
-    value = {
-      ['--tw-translate-y'] = '14rem',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-y-60',
-    value = {
-      ['--tw-translate-y'] = '15rem',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-y-64',
-    value = {
-      ['--tw-translate-y'] = '16rem',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-y-72',
-    value = {
-      ['--tw-translate-y'] = '18rem',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-y-80',
-    value = {
-      ['--tw-translate-y'] = '20rem',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-y-96',
-    value = {
-      ['--tw-translate-y'] = '24rem',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-y-px',
-    value = {
-      ['--tw-translate-y'] = '1px',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-y-0.5',
-    value = {
-      ['--tw-translate-y'] = '0.125rem',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-y-1.5',
-    value = {
-      ['--tw-translate-y'] = '0.375rem',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-y-2.5',
-    value = {
-      ['--tw-translate-y'] = '0.625rem',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-y-3.5',
-    value = {
-      ['--tw-translate-y'] = '0.875rem',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-y-1/2',
-    value = {
-      ['--tw-translate-y'] = '50%',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-y-1/3',
-    value = {
-      ['--tw-translate-y'] = '33.333333%',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-y-2/3',
-    value = {
-      ['--tw-translate-y'] = '66.666667%',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-y-1/4',
-    value = {
-      ['--tw-translate-y'] = '25%',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-y-2/4',
-    value = {
-      ['--tw-translate-y'] = '50%',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-y-3/4',
-    value = {
-      ['--tw-translate-y'] = '75%',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
-    class = '.translate-y-full',
-    value = {
-      ['--tw-translate-y'] = '100%',
-      transform = 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))',
-    },
-    title = 'Translate',
-    description = 'Utilities for translating elements with transform.',
-  },
-  {
     class = '.select-none',
     value = {
       ['user-select'] = 'none',
@@ -79285,30 +79238,6 @@ return {
     description = 'Utilities for controlling the vertical alignment of an inline or table-cell box.',
   },
   {
-    class = '.visible',
-    value = {
-      visibility = 'visible',
-    },
-    title = 'Visibility',
-    description = 'Utilities for controlling the visibility of an element.',
-  },
-  {
-    class = '.invisible',
-    value = {
-      visibility = 'hidden',
-    },
-    title = 'Visibility',
-    description = 'Utilities for controlling the visibility of an element.',
-  },
-  {
-    class = '.collapse',
-    value = {
-      visibility = 'collapse',
-    },
-    title = 'Visibility',
-    description = 'Utilities for controlling the visibility of an element.',
-  },
-  {
     class = '.whitespace-normal',
     value = {
       ['white-space'] = 'normal',
@@ -79357,37 +79286,28 @@ return {
     description = 'Utilities for controlling an element\'s white-space property.',
   },
   {
-    class = '.break-normal',
+    class = '.visible',
     value = {
-      ['overflow-wrap'] = 'normal',
-      ['word-break'] = 'normal',
+      visibility = 'visible',
     },
-    title = 'Word Break',
-    description = 'Utilities for controlling word breaks in an element.',
+    title = 'Visibility',
+    description = 'Utilities for controlling the visibility of an element.',
   },
   {
-    class = '.break-words',
+    class = '.invisible',
     value = {
-      ['overflow-wrap'] = 'break-word',
+      visibility = 'hidden',
     },
-    title = 'Word Break',
-    description = 'Utilities for controlling word breaks in an element.',
+    title = 'Visibility',
+    description = 'Utilities for controlling the visibility of an element.',
   },
   {
-    class = '.break-all',
+    class = '.collapse',
     value = {
-      ['word-break'] = 'break-all',
+      visibility = 'collapse',
     },
-    title = 'Word Break',
-    description = 'Utilities for controlling word breaks in an element.',
-  },
-  {
-    class = '.break-keep',
-    value = {
-      ['word-break'] = 'keep-all',
-    },
-    title = 'Word Break',
-    description = 'Utilities for controlling word breaks in an element.',
+    title = 'Visibility',
+    description = 'Utilities for controlling the visibility of an element.',
   },
   {
     class = '.will-change-auto',
@@ -79420,6 +79340,39 @@ return {
     },
     title = 'Will Change',
     description = 'Utilities for optimizing upcoming animations of elements that are expected to change.',
+  },
+  {
+    class = '.break-normal',
+    value = {
+      ['overflow-wrap'] = 'normal',
+      ['word-break'] = 'normal',
+    },
+    title = 'Word Break',
+    description = 'Utilities for controlling word breaks in an element.',
+  },
+  {
+    class = '.break-words',
+    value = {
+      ['overflow-wrap'] = 'break-word',
+    },
+    title = 'Word Break',
+    description = 'Utilities for controlling word breaks in an element.',
+  },
+  {
+    class = '.break-all',
+    value = {
+      ['word-break'] = 'break-all',
+    },
+    title = 'Word Break',
+    description = 'Utilities for controlling word breaks in an element.',
+  },
+  {
+    class = '.break-keep',
+    value = {
+      ['word-break'] = 'keep-all',
+    },
+    title = 'Word Break',
+    description = 'Utilities for controlling word breaks in an element.',
   },
   {
     class = '.z-0',
@@ -80054,75 +80007,125 @@ return {
     description = 'Utilities for controlling how a replaced element\'s content should be resized.',
   },
   {
-    class = '.object-bottom',
+    class = '.opacity-0',
     value = {
-      ['object-position'] = 'bottom',
+      opacity = '0',
     },
-    title = 'Object Position',
-    description = 'Utilities for controlling how a replaced element\'s content should be positioned within its container.',
+    title = 'Opacity',
+    description = 'Utilities for controlling the opacity of an element.',
   },
   {
-    class = '.object-center',
+    class = '.opacity-5',
     value = {
-      ['object-position'] = 'center',
+      opacity = '0.05',
     },
-    title = 'Object Position',
-    description = 'Utilities for controlling how a replaced element\'s content should be positioned within its container.',
+    title = 'Opacity',
+    description = 'Utilities for controlling the opacity of an element.',
   },
   {
-    class = '.object-left',
+    class = '.opacity-10',
     value = {
-      ['object-position'] = 'left',
+      opacity = '0.1',
     },
-    title = 'Object Position',
-    description = 'Utilities for controlling how a replaced element\'s content should be positioned within its container.',
+    title = 'Opacity',
+    description = 'Utilities for controlling the opacity of an element.',
   },
   {
-    class = '.object-left-bottom',
+    class = '.opacity-20',
     value = {
-      ['object-position'] = 'left bottom',
+      opacity = '0.2',
     },
-    title = 'Object Position',
-    description = 'Utilities for controlling how a replaced element\'s content should be positioned within its container.',
+    title = 'Opacity',
+    description = 'Utilities for controlling the opacity of an element.',
   },
   {
-    class = '.object-left-top',
+    class = '.opacity-25',
     value = {
-      ['object-position'] = 'left top',
+      opacity = '0.25',
     },
-    title = 'Object Position',
-    description = 'Utilities for controlling how a replaced element\'s content should be positioned within its container.',
+    title = 'Opacity',
+    description = 'Utilities for controlling the opacity of an element.',
   },
   {
-    class = '.object-right',
+    class = '.opacity-30',
     value = {
-      ['object-position'] = 'right',
+      opacity = '0.3',
     },
-    title = 'Object Position',
-    description = 'Utilities for controlling how a replaced element\'s content should be positioned within its container.',
+    title = 'Opacity',
+    description = 'Utilities for controlling the opacity of an element.',
   },
   {
-    class = '.object-right-bottom',
+    class = '.opacity-40',
     value = {
-      ['object-position'] = 'right bottom',
+      opacity = '0.4',
     },
-    title = 'Object Position',
-    description = 'Utilities for controlling how a replaced element\'s content should be positioned within its container.',
+    title = 'Opacity',
+    description = 'Utilities for controlling the opacity of an element.',
   },
   {
-    class = '.object-right-top',
+    class = '.opacity-50',
     value = {
-      ['object-position'] = 'right top',
+      opacity = '0.5',
     },
-    title = 'Object Position',
-    description = 'Utilities for controlling how a replaced element\'s content should be positioned within its container.',
+    title = 'Opacity',
+    description = 'Utilities for controlling the opacity of an element.',
   },
   {
-    class = '.object-top',
+    class = '.opacity-60',
     value = {
-      ['object-position'] = 'top',
+      opacity = '0.6',
     },
-    title = 'Object Position',
-    description = 'Utilities for controlling how a replaced element\'s content should be positioned within its container.',
+    title = 'Opacity',
+    description = 'Utilities for controlling the opacity of an element.',
+  },
+  {
+    class = '.opacity-70',
+    value = {
+      opacity = '0.7',
+    },
+    title = 'Opacity',
+    description = 'Utilities for controlling the opacity of an element.',
+  },
+  {
+    class = '.opacity-75',
+    value = {
+      opacity = '0.75',
+    },
+    title = 'Opacity',
+    description = 'Utilities for controlling the opacity of an element.',
+  },
+  {
+    class = '.opacity-80',
+    value = {
+      opacity = '0.8',
+    },
+    title = 'Opacity',
+    description = 'Utilities for controlling the opacity of an element.',
+  },
+  {
+    class = '.opacity-90',
+    value = {
+      opacity = '0.9',
+    },
+    title = 'Opacity',
+    description = 'Utilities for controlling the opacity of an element.',
+  },
+  {
+    class = '.opacity-95',
+    value = {
+      opacity = '0.95',
+    },
+    title = 'Opacity',
+    description = 'Utilities for controlling the opacity of an element.',
+  },
+  {
+    class = '.opacity-100',
+    value = {
+      opacity = '1',
+    },
+    title = 'Opacity',
+    description = 'Utilities for controlling the opacity of an element.',
   },
 }
+
+return M
