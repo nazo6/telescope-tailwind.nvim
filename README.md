@@ -4,10 +4,10 @@ wip
 
 ## Install
 
-In lazy.nvim
+In lazy.nvim config
 
 ```lua
-{ "nazo6/telescope-tailwind" }
+{ "nazo6/telescope-tailwind.nvim" }
 ```
 
 And load it.
